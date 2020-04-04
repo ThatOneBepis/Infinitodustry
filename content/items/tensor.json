@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Tensor",
+	"description": "Multidimensional thing",
+	"cost": 1.7,
+	"hardness": 8,
+	"color": "ff7c00"
+}

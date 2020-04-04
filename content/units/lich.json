@@ -1,0 +1,34 @@
+{
+	"name": "Lich",
+	"description": "Battleship packed with a lot of missiles. Quite powerful, but weak compared to other gigantic means of warfare.",
+	"type": "UnitType",
+	"health": 6000,
+	"mass": 20,
+	"hitsize": 40,
+	"speed": 0.01,
+	"maxVelocity": 0.6,
+	"drag": 0.02,
+	"attackLenght": 90,
+	"rotatesped": 0.01,
+	"flying": true,
+	"shootCone": 20,
+	"baseRotateSpeed": 0.04,
+	"weapons":
+	[
+		{
+			"name": "lich-missiles",
+			"lenght": 4,
+			"reload": 160,
+			"width": 22,
+			"shots": 16,
+			"shotDelay": 2,
+			"inaccuracy": 10,
+			"alternate": true,
+			"ejectEffect": "none",
+			"velocityRnd": 0.2,
+			"spacing": 1,
+			"bullet": "missileRevenant",
+			"shootSound": "artillery"
+		}
+	]
+}

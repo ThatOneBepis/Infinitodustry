@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Matrix",
+	"description": "Energetic material, either used as fuel, or for conversion into other materials.",
+	"cost": 1.6,
+	"hardness": 6,
+	"flammability": 1.15,
+	"color": "b83fb8"
+}
