@@ -1,6 +1,7 @@
 In the future... this will be the everyday content                                                                                         
 -6.0 Example mod:                                                                                                                         
 --JSON of units, such as Black widow, Knife and Divinity (too ambigious might i add)                                                       
+--Factories of said units                                                                                                                 
 --An example planet(s), one which is planned to look like Death star    
 --Aditional systems/dropships, when beta of it comes anyway                                                                               
 --Multiple "Factions" forged into one "Coalition"                                                                                         
