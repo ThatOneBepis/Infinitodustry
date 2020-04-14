@@ -1,0 +1,21 @@
+-Tier 1 
+--Starter units (Daggers, Wraiths, etc.)
+--Basic drone factory (Draugs, Phantoms, Spirits, Knight)
+--Frigate-class units 
+-Tier 2 
+--Somewhat advanced units (Fortresses, Revenants, etc.)
+--Medic drone factory
+--Destroyed-class units
+--Dropships/Delivery units (?)
+-Tier 3
+--Theoretically, (current) boss units
+--Stealth-based units
+--Advanced patrol drones
+--Special drone factory
+--Battleships/Carriers
+-Tier 4
+--???
+--Actual bosses
+-Tier 0 (sandbox-only)
+--Multi-religious altar (omegarad, supreme lich, the silly ones)
+--Swiss-army factory (has like, all units)
