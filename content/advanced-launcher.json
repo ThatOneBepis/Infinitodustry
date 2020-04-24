@@ -1,0 +1,17 @@
+{
+	"type": "BlockLauncher",
+	"name": "Large block launches",
+	"description": "Launches larger blocks.",
+	"size:": 5,
+	"hasPower": true,
+	"consumes": {"power": 5},
+	"requirements": [
+		{ "item": "thorium", "amount": 95 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 125 },
+		{ "item": "scalar", "amount": 85 },
+		{ "item": "titanium", "amount": 110 },
+		{ "item": "toughitinum", "amount": 65 }
+	],
+	"category": "effect"
+}

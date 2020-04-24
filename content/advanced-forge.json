@@ -1,0 +1,17 @@
+{
+	"type": "BlockForge",
+	"name": "Large block forge",
+	"description": "Constructs larger blocks, including the smaller block forge variant. Incompatible with Mass conveyors.",
+	"size:": 5,
+	"hasPower": true,
+	"consumes": {"power": 5},
+	"requirements": [
+		{ "item": "thorium", "amount": 95 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 125 },
+		{ "item": "scalar", "amount": 85 },
+		{ "item": "titanium", "amount": 110 },
+		{ "item": "toughitinum", "amount": 65 }
+	],
+	"category": "effect"
+}
