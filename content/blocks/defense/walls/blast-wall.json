@@ -1,0 +1,12 @@
+{
+	"type": "DeflectorWall",
+	"health": 500,
+	"BlockGroup": "walls",
+	"size": 1,
+	"insulated": true,
+	"requirements": [
+		{ "item": "blast-fabric", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "phase-wall"
+}

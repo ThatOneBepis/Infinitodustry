@@ -1,0 +1,12 @@
+{
+	"name": "Toughitinum-glazed vector totem",
+	"description": "Powerful node designed for testing purposes, due to it's nature, it can be used as a bootleg static wall.",
+	"type": "PowerNode",
+	"maxNodes": 1,
+	"laserRange": 0,
+	"health": 69,
+	"size": 1,
+	"destructible": false,
+	"category": "effect",
+	"buildVisibility": "sandboxOnly"
+}
