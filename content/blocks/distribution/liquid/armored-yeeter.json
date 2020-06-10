@@ -1,0 +1,18 @@
+{
+	"type": "LiquidExtendingBridge",
+	"health": 725,
+	"hasPower": false,
+	"BlockGroup": "liquids",
+	"requirements": [
+		{"item": "silicon", "amount": 6},
+		{"item": "stone", "amount": 12},
+		{"item": "matrix", "amount": 6},
+		{"item": "vector", "amount": 6},
+		{"item": "titanium", "amount": 15}
+	],
+	"category": "liquid",
+	"research": "bridge-conduit",
+	"LiquidCapacity": 16,
+	"range": 6,
+	"speed": 70,
+}

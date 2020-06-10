@@ -1,0 +1,78 @@
+{
+	"type": "ItemTurret",
+	"category": "turret",
+	"health": 1650,
+	"size": 2,
+	"reload": 120,
+	"targetGround": true,
+	"targetAir": false,
+	"range": 160,
+	"shootCone": 360,
+	"BlockGroup": "turrets",
+	"shootSound": "explosion",
+	"ammoUseEffect": "explosion",
+	"inaccuracy": 0,
+	"rotatespeed": 1000000000000000,
+	"ammo": {
+		"blast-compound": {
+			"splashDamage": 10,
+			"splashDamageRadius": 160,
+			"ammoMultiplier": 1,
+			"bulletWidth": 20,
+		    "bulletHeight": 20,
+		    "instantDisappear": true,
+		    "reloadMultiplier": 0.75,
+            "type": "BasicBulletType",
+            "lifetime": 5,
+            "speed": 0,
+            "despawnEffect": "commandSend",
+		},
+		"phase-fabric": {
+			"ammoMultiplier": 2,
+			"bulletWidth": 20,
+		    "bulletHeight": 20,
+		    "instantDisappear": true,
+            "type": "BasicBulletType",
+            "lifetime": 5,
+            "speed": 0,
+            "despawnEffect": "commandSend",
+			"splashDamage": 60,
+			"splashDamageRadius": 320
+		},
+		"blast-fabric": 
+		{
+			"ammoMultiplier": 5,
+			"bulletWidth": 20,
+		    "bulletHeight": 20,
+		    "instantDisappear": true,
+            "type": "BasicBulletType",
+            "lifetime": 5,
+            "speed": 0,
+            "reloadMultiplier": 2,
+            "splashDamageRadius": 160,
+            "splashDamage": 60,
+            "despawnEffect": "commandSend" 
+		},
+		"surge-alloy": {
+			"ammoMultiplier": 5,
+			"bulletWidth": 20,
+		    "bulletHeight": 20,
+		    "instantDisappear": true,
+            "type": "BasicBulletType",
+            "lifetime": 5,
+            "speed": 0,
+			"splashDamage": 85,
+			"splashDamageRadius": 160,
+            "lightining" : 30,
+            "lightningLength" : 150,
+            "despawnEffect": "commandSend" 
+		}
+	    },
+	"requirements": [
+		{ "item": "blast-fabric", "amount": 90 },
+		{ "item": "matrix", "amount": 110 },
+		{ "item": "stone", "amount": 100 },
+	],
+	"category": "turret",
+	"research": "ripple"
+}

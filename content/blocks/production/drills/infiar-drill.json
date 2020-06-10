@@ -1,0 +1,29 @@
+{
+	"name": "IN5-AR",
+	"type": "Drill",
+	"size": 2,
+	"tier": 30,
+	"drillTime": 95,
+	"BlockGroup": "drills",
+	"hasLiquids": true,
+	"consumes": {
+		"power": 4.0,
+		"liquid": {
+			"liquid": "slag", 
+			"amount": 0.1,
+			"booster": false,
+			"optional": false
+		}
+	},
+	"requirements": [
+		{ "item": "tensor", "amount": 135 },
+		{ "item": "metaglass", "amount": 110 },
+		{ "item": "blast-fabric", "amount": 100 },
+		{ "item": "graphite", "amount": 95 },
+		{ "item": "surge-alloy", "amount": 175 },
+		{ "item": "thorium", "amount": 115 },
+		{ "item": "plastanium", "amount": 90 }
+	],
+	"category": "production",
+	"research": "tensor-drill"
+}

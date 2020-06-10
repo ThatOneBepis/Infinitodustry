@@ -1,0 +1,16 @@
+{
+	"type": "Conduit",
+	"name": "Conduit ventil",
+	"description": "Silicatic conduit with a ventil. Can be detached from the power grid in order to close the vent.",
+	"health": 355,
+	"consumes":{"power": 0.0001},
+	"BlockGroup": "liquids",
+	"requirements": [
+		{"item": "silicon", "amount": 1},
+		{"item": "scalar", "amount": 1}
+		{"item": "stone", "amount": 2},
+	],
+	"category": "liquid",
+	"research": "armored-conduit",
+	"liquidCapacity": 16
+}

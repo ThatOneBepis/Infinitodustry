@@ -1,0 +1,12 @@
+{
+"tier": 6,
+"size": 3,
+"drillTime": 195,
+"requirements":[
+	{"item": "stone", "amount": 65},
+	{"item": "vector", "amount": 50},
+	{"item": "thorium", "amount": 75},
+	{"item": "silicon", "amount": 60},
+	{"item": "plastanium", "amount": 55}
+]
+}

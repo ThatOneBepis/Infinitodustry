@@ -1,0 +1,13 @@
+{
+	"type": "sorter",
+	"health": 450,
+	"size": 1,
+	"BlockGroup": "transportation",
+	"requirements": [
+		{ "item": "vector", "amount": 6 },
+		{ "item": "graphite", "amount": 12},
+		{ "item": "titanium", "amount": 6}
+	],
+	"category": "distribution",
+	"research": "sorter"
+}

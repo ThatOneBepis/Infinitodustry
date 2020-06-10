@@ -1,0 +1,23 @@
+{
+	"type": "massDriver",
+	"health": 450,
+	"size": 1,
+	"speed": 100,
+	"itemCapacity": 15,
+	"minDistribute": 5,
+	"reloadTime": 100,
+	"range": 90,
+	"consumes":
+	{
+		"power": 0.45
+	},
+	"requirements": [
+		{ "item": "tau-plate", "amount": 35 },
+		{ "item": "lead", "amount": 35 },
+		{ "item": "thorium", "amount": 40 },
+		{ "item": "blast-fabric", "amount": 25 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "distribution",
+	"research": "mass-driver"
+}

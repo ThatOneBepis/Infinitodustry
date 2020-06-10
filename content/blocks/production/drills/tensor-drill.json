@@ -1,0 +1,31 @@
+{
+	"name": "TN4S-R",
+	"type": "Drill",
+	"size": 2,
+	"tier": 8,
+	"hasItems": true,
+	"hasLiquids": false,
+	"drillTime": 145,
+	"itemUseTime": 60,
+	"BlockGroup": "drills",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+    "items": [
+        {"item": "tau-plate", "amount": 1},
+    ],
+    "booster": true,
+    "optional": true
+}
+    },
+	"requirements": [
+		{ "item": "matrix", "amount": 115 },
+		{ "item": "metaglass", "amount": 135 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "lead", "amount": 175 },
+		{ "item": "thorium", "amount": 125 },
+		{ "item": "toughitinum", "amount": 60 }
+	],
+	"category": "production",
+	"research": "matrix-drill"
+}

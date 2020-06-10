@@ -1,0 +1,8 @@
+{
+	"type": "Floor",
+	"name": "Cryo-flowing floor",
+	"speedMultiplier": 1,
+	"isLiquid": true,
+	"liquidDrop": "cryofluid",
+	"variants": 0
+}

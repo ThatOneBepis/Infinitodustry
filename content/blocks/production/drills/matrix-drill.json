@@ -1,0 +1,26 @@
+{
+	"name": "MTRX-3",
+	"type": "Drill",
+	"size": 2,
+	"tier": 6,
+	"drillTime": 175,
+	"BlockGroup": "drills",
+	"consumes": {
+		"power": 1.1,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "vector", "amount": 75 },
+		{ "item": "silicon", "amount": 95 },
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "plastanium", "amount": 100 }
+	],
+	"category": "production",
+	"research": "vector-drill"
+}

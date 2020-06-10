@@ -1,0 +1,102 @@
+{
+	"type": "DoubleTurret",
+	"health": 860,
+	"size": 2,
+	"reload": 15,
+	"targetGround": false,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0,
+	"BlockGroup": "turrets",
+	"rotatespeed": 20,
+	"ammo": {
+		"copper": {
+			"speed": 4.5,
+			"damage": 20,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+		},
+		"snowball":
+			{
+			"speed": 6,
+			"damage": 5,
+			"backcolor": "ffffff",
+			"frontColor": "ffffff",
+			"bulletWidth": 6,
+			"bulletHeight": 6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"status": "freezing"
+			},
+		"lead": {
+			"speed": 6,
+			"damage": 30,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reloadMultiplier": 0.8
+		},
+		"silicon": {
+			"speed": 4.0,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"lifetime": 300,
+			"homingPower" : 2,
+            "homingRange" : 50
+		},
+		"titanium": {
+			"speed": 4.5,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reloadMultiplier": 1.5
+	    },
+		"surge-alloy": {
+			"speed": 4.5,
+			"damage": 35,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+            "lightining" : 2,
+            "lightningLength" : 25
+		},
+		"vector": {
+			"speed": 10,
+			"damage": 20,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reloadMultiplier": 1.1
+		},
+		"pyratite":
+		{
+			"speed": 5,
+			"damage": 25,
+			"bulletHeight": 10,
+			"bulletWidth": 6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"incendAmount": 15,
+			"splashDamageRadius": 20,
+			"splashDamage": 20,
+			"lifetime": 100
+		}
+	    },
+	"requirements": [
+		{ "item": "lead", "amount": 70 },
+		{ "item": "copper", "amount": 140 },
+        { "item": "visionary-glass", "amount": 50 }
+	],
+	"category": "turret",
+	"research": "scatter"
+}

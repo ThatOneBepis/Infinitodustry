@@ -1,0 +1,28 @@
+{
+	"name": "Parabolic delivery system",
+	"description": "Increribly large, but it's range is large enough to transport over most of the planet you are probably in.",
+	"type": "massDriver",
+	"health": 5000,
+	"size": 8,
+	"speed": 2000,
+	"itemCapacity": 4000,
+	"reloadTime": 10000,
+	"range": 15000,
+	"minDistribute": 400,
+	"consumes":
+	{
+		"power": 35
+	},
+	"requirements": [
+		{ "item": "tau-plate", "amount": 2300 },
+		{ "item": "lead", "amount": 3000 },
+		{ "item": "thorium", "amount": 3200 },
+		{ "item": "blast-fabric", "amount": 500 },
+		{ "item": "silicon", "amount": 3250 },
+		{ "item": "vector", "amount": 1500 },
+		{ "item": "toughitinum", "amount": 2000 },
+		{ "item": "stone", "amount": 1000}
+	],
+	"category": "distribution",
+	"research": "massive-ass-driver"
+}

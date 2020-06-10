@@ -1,0 +1,25 @@
+{
+	"name": "Massive-ass drive",
+	"description": "More bulky, but can transport items over great distances.",
+	"type": "massDriver",
+	"health": 450,
+	"size": 5,
+	"speed": 120,
+	"itemCapacity": 280,
+	"reloadTime": 350,
+	"range": 800,
+	"minDistribute": 20,
+	"consumes":
+	{
+		"power": 4.2
+	},
+	"requirements": [
+		{ "item": "tau-plate", "amount": 350 },
+		{ "item": "lead", "amount": 350 },
+		{ "item": "thorium", "amount": 400 },
+		{ "item": "blast-fabric", "amount": 225 },
+		{ "item": "silicon", "amount": 325 }
+	],
+	"category": "distribution",
+	"research": "mass-driver"
+}

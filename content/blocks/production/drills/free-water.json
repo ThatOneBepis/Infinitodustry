@@ -1,0 +1,18 @@
+{
+	"type": "SolidPump",
+	"health": 150,
+	"result": "water",
+	"hasPower": false,
+	"hasLiquids": true,
+	"hasShadow": false,
+	"size": 2,
+	"pumpAmount": 0.05,
+	"requirements": [
+		{"item": "tau-plate", "amount": 45},
+		{"item": "stone", "amount": 95},
+		{"item": "graphite", "amount": 35}
+	],
+	"category": "production",
+	"research": "water-extractor",
+	"liquidCapacity": 15
+}

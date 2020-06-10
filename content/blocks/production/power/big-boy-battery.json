@@ -1,0 +1,12 @@
+{
+	"type": "battery",
+	"size": 5,
+	"health": 105,
+	"category": "power",
+	"research": "battery-large",
+	"baseExplosiveness": 1,
+	"requirements": [
+		{"item": "matrix", "amount": 500}
+	],
+	"consumes": { "powerBuffered": 1000000}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Campfire",
+	"description": "Block what emits light by using coal's combustion process on fresh air, as well as making sure you are warm.",
+	"type": "LightBlock",
+	"health": 40,
+	"radius": 165,
+	"brigtness": 1,
+	"baseExplosiveness": 4,
+	"itemDuration": 600,
+	"itemCapacity": 1,
+	"hasItems": true,
+	"hasPower": false,
+	"solid": true,
+	"consumes": {        
+	"items": {
+    "items": [
+        {"item": "coal", "amount": 1},
+    ],
+	}},
+	"requirements": [
+		{ "item": "tau-plate", "amount": 10 }
+	],
+	"category": "effect"
+}

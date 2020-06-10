@@ -1,0 +1,5 @@
+{
+	"name": "Vector totem",
+	"type": "StaticWall",
+	"itemDrop": "vector"
+}

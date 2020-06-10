@@ -1,0 +1,18 @@
+{
+	"type": "BufferedItemBridge",
+	"health": 725,
+	"size": 1,
+	"range": 6,
+	"speed": 70,
+	"BlockGroup": "transportation",
+	"bufferCapacity": 20,
+	"requirements": [
+		{ "item": "matrix", "amount": 6 },
+		{ "item": "titanium", "amount": 12},
+		{ "item": "graphite", "amount": 12},
+		{ "item": "metaglass", "amount": 15},
+		{ "item": "vector", "amount": 6}
+	],
+	"category": "distribution",
+	"research": "bridge-conveyor"
+}
