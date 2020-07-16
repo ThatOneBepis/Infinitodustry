@@ -26,6 +26,7 @@ Gods/Divine entities (should) use Sacred Shrine block for their spawning, along 
 
 -Air
 1. Orange/red [i]Direct attack[/i]
+yo classical orange units
 2. Dark red [i]Siege support[/i]
 (using 5x5 "Specialized" reconstructor) Shadow Drone -> Abyss Drone
 3. Cyan [i]Base-related drones[/i]
@@ -33,8 +34,10 @@ Gods/Divine entities (should) use Sacred Shrine block for their spawning, along 
 (using 3x3 "Specialized" reconstructor) Phantom -> Knight
 (using "Specialized" reconstructors) Knight (3x3) -> Crusader (5x5) -> Inquisitor (7x7). May require me to make latter 2 units be larger.
 4. Lime [i]Field support[/i]
-(using -undefined- reconstructors) ??? -> Turtle -> Roach (tier is indicated by the base units) <- Ant <- ???
-(using "Specialized" reconstructors) ??? -> ??? -> ??? -> Angel (Boss what supports it's allies) -> Archangel
+(using -undefined- reconstructors) ??? -> Turtle -> Shrimp -> Roach (tier is indicated by the base units) <- Thermite <- Ant <- ???
+(using "Specialized" reconstructors) Priest -> Monarch -> Patriarch -> Angel (Boss what supports it's allies) -> Archangel
+5. Mindustry Classic Purple [i]Core-spawned[/i]
+
 -Naval
 1. Gunboats 
 current 3 ships featured in BE
