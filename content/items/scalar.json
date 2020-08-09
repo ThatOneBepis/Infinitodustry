@@ -1,8 +1,11 @@
 {
-	"type": "material",
-	"name": "Scalar",
-	"description": "As simple as two.",
 	"cost": 1,
 	"hardness": 4,
-	"color": "43c131"
+	"research": "stonks",
+	"color": "50d63f",
+	"requirements":
+	[
+		{"item": "visionary-glass", "amount": 5000},
+		{"item": "stonks", "amount": 25000}
+	]
 }

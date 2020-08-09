@@ -1,6 +1,11 @@
 {
-	"type": "material",
-	"name": "Toughitinum",
-	"description": "Aerodynamic conductor. Used as a protective layer for units, amunition, and critter boxes.",
+	"research": "vector",
+	"requirements":
+	[
+		{"item": "vector", "amount": 3000},
+		{"item": "copper", "amount": 9000},
+		{"item": "coal", "amount": 4500},
+		{"item": "stonks", "amount": 42500}
+	],
 	"color": "66a00d"
 }

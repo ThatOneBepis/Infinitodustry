@@ -1,7 +1,13 @@
 {
-	"type": "material",
-	"name": "Visionary glass",
-	"description": "Glass containing Copper with magnifying properties.",
+	"research": "klin",
+	"requirements":
+	[
+		{"item": "metaglass", "amount": 3000},
+		{"item": "lead", "amount": 2000},
+		{"item": "copper", "amount": 3500},
+		{"item": "metaglass", "amount": 2000},
+		{"item": "stonks", "amount": 10000}
+	],
 	"cost": 3,
 	"color": "369928"
 }

@@ -1,9 +1,14 @@
 {
-	"type": "material",
-	"name": "Matrix",
-	"description": "Energetic material, either used as fuel, or for conversion into other materials.",
+	"research": "vector",
+	"requirements":
+	[
+		{"item": "vector", "amount": 10000},
+		{"item": "scalar", "amount": 12500},
+		{"item": "stonks", "amount": 50000}
+	],
 	"cost": 1.6,
 	"hardness": 6,
 	"flammability": 1.15,
-	"color": "b83fb8"
+	"explosiveness": 0.35,
+	"color": "fb76ff"
 }

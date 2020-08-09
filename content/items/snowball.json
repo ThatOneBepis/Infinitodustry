@@ -1,7 +1,8 @@
 {
-	"type": "resource",
-	"name": "Snowball",
-	"description": "A chill gag.",
+	"research": "water-extractor",
 	"color": "dbdbdb",
-	"hardness": 0
+	"requirements":
+	[
+		{"item": "stonks", "amount": 10000}
+	]
 }

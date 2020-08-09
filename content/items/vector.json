@@ -1,8 +1,11 @@
 {
-	"type": "material",
-	"name": "Vector",
-	"description": "Very fammiliar and with direction. Used for more advanced blocks when something has to go somewhere.",
+	"research": "scalar",
+	"requirements":
+	[
+		{"item": "scalar", "amount": 6000},
+		{"item": "stonks", "amount": 35000}
+	],
 	"cost": 1.5,
 	"hardness": 5,
-	"color": "0031ca"
+	"color": "5d5de2"
 }

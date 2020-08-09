@@ -1,6 +1,10 @@
 {
-	"type": "resource",
-	"name": "Snowball 2.0",
-	"description": "Snowball glazed with hella ton of cryofluid. Used in crafting where cryofluid cannot be used.",
+	"research": "snowball",
 	"color": "67c1e1",
+	"requirements":
+	[
+		{"item": "snowball", "amount": 15000},
+		{"item": "titanium", "amount": 10000},
+		{"item": "stonks", "amount": 25000}
+	]
 }

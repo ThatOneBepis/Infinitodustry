@@ -1,6 +1,10 @@
 {
-	"type": "material",
-	"name": "Tau brick",
-	"description": "Brick composed of graphite and stone, reinforced with titanium, used as Tau building material.",
-	"color": "c06a18"
+	"research": "scalar",
+	"requirements":
+	[
+		{"item": "scalar", "amount": 6000},
+		{"item": "stone", "amount": 4000}
+		{"item": "stonks", "amount": 35000}
+	],
+	"color": "e1b75e" 
 }

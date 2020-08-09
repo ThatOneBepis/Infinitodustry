@@ -1,5 +1,10 @@
 {
-	"type": "resource",
+	"research": "ink",
+	"requirements":
+	[
+		{"item": "plastanium", "amount": 10000},
+		{"item": "stonks", "amount": 35000}
+	],
 	"flammability": 0.8,
 	"explosiveness": 1.15,
 	"color": "cbd97f"

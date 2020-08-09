@@ -1,8 +1,15 @@
 {
-	"type": "material",
-	"name": "Tensor",
-	"description": "Multidimensional thing",
+	"research": "matrix",
+	"requirements":
+	[
+		{"item": "matrix", "amount": 16000},
+		{"item": "vector", "amount": 21000},
+		{"item": "scalar", "amount": 25000},
+		{"item": "stonks", "amount": 85000}
+	],
+	"flammability": 0.9,
+	"explosiveness": 0.7,
 	"cost": 1.7,
 	"hardness": 8,
-	"color": "ff7c00"
+	"color": "ffb02f"
 }
