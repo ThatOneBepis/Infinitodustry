@@ -1,7 +1,6 @@
 
 {
 	"type": "liquid",
-	"name": "Ionising fluid",
 	"temperature": 10,
     "viscosity": 0,
     "heatCapacity": 1.5,
@@ -16,6 +15,5 @@
     "color": "00ffff"
 	},
     "color": "00ffff",
-    "lightColor": "vaffff",
-    "description": "Taus are majestic for inventing this, change my mind"
+    "lightColor": "vaffff"
 }
