@@ -1,0 +1,29 @@
+{
+	"type": "GenericSmelter",
+	"itemCapacity": 10,
+	"outputItem": {"item": "stonks", "amount": 1.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 140,
+	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+        "items": [
+        {"item": "lead", "amount": 1},
+        {"item": "copper", "amount": 2}
+    ]
+    }
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 160 },
+		{ "item": "lead", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "stonks",
+	"buildVisibility": "campaignOnly",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

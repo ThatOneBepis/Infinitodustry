@@ -1,0 +1,14 @@
+{
+	"requirements": [
+		{"item": "infiar", "amount": 480},
+		{"item": "tensor", "amount": 650},
+		{"item": "titanium", "amount": 265},
+		{"item": "toughitinum", "amount": 230},
+		{"item": "thorium", "amount": 400},
+		{"item": "blast-fabric", "amount": 150},
+		{"item": "phase-fabric", "amount": 185},
+		{"item": "surge-alloy", "amount": 120}
+	],
+	"category": "crafting",
+	"research": "infiar-drill"
+}

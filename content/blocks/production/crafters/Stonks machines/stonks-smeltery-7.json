@@ -1,0 +1,33 @@
+{
+	"type": "GenericSmelter",
+	"itemCapacity": 150,
+	"outputItem": {"item": "stonks", "amount": 15.0},
+	"size": 5,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
+	"consumes": {
+		"power": 12,
+		"items": {
+        "items": [
+        {"item": "tensor", "amount": 1},
+        {"item": "phase-fabric", "amount": 2}
+    ]
+    }
+	},
+	"requirements": [
+		{ "item": "tau-plate", "amount": 575 },
+		{ "item": "blast-fabric", "amount": 310 },
+		{ "item": "toughitinum", "amount": 420 },
+		{ "item": "tensor", "amount": 390 },
+		{ "item": "surge-alloy", "amount": 470 },
+		{ "item": "phase-fabric", "amount": 445 }
+	],
+	"category": "crafting",
+	"research": "stonks-smeltery-6",
+	"buildVisibility": "campaignOnly",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

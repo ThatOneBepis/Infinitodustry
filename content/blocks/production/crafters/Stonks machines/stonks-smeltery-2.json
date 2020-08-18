@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"itemCapacity": 35,
+	"outputItem": {"item": "stonks", "amount": 2.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 200,
+	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
+	"consumes": {
+		"power": 2,
+		"items": {
+        "items": [
+        {"item": "titanium", "amount": 1},
+        {"item": "copper", "amount": 3}
+    ]
+    }
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 300 },
+		{ "item": "lead", "amount": 250 },
+		{ "item": "titanium", "amount": 120 },
+		{ "item": "visionary-glass", "amount": 60 },
+	],
+	"category": "crafting",
+	"research": "stonks-smeltery-1",
+	"buildVisibility": "campaignOnly",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

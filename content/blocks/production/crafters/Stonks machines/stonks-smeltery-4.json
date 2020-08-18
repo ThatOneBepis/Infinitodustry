@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"itemCapacity": 45,
+	"outputItem": {"item": "stonks", "amount": 5.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 150,
+	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
+	"consumes": {
+		"power": 5,
+		"items": {
+        "items": [
+        {"item": "toughitinum", "amount": 1},
+        {"item": "tau-plate", "amount": 2}
+    ]
+    }
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 450 },
+		{ "item": "plastanium", "amount": 210 },
+		{ "item": "toughitinum", "amount": 150 },
+		{ "item": "vector", "amount": 200 },
+		{ "item": "silicon", "amount": 300 },
+	],
+	"category": "crafting",
+	"research": "stonks-smeltery-3",
+	"buildVisibility": "campaignOnly",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
