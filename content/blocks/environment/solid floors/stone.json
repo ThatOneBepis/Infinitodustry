@@ -1,3 +1,4 @@
 {
-	"itemDrop": "stone"
+	"itemDrop": "stone",
+	"playerUnmineable": true
 }
