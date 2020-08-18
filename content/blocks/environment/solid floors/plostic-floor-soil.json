@@ -1,6 +1,7 @@
 {
 	"type": "Floor",
 	"itemDrop": "plastanium",
+	"variants": 0,
 	"playerUnmineable": true,
-	"attributes": {"array":[0,0,0,0.25]}
+	"attributes": [{"type": "oil", "amount": 2.5}]
 }

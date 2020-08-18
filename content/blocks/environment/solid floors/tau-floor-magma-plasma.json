@@ -1,0 +1,12 @@
+{
+	"type": "Floor",
+	"blendGroup": "tau-floor-magma",
+	"variants": 0,
+	"emitLight": true,
+	"lightRadius": 30,
+	"lightColor": "cyan",
+    "attributes": [
+    	{"type": "heat", "amount": 0.3},
+    	{"type": "water", "amount": -0.1}
+    ]
+}
