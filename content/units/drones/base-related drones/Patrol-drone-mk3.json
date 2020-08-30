@@ -1,0 +1,31 @@
+{
+	"type": "MechUnit",
+	"health": 600,
+	"flying": true,
+	"targetAir": true,
+	"speed": 0.3,
+	"mass": 65,
+	"rotatespeed": 6,
+	"maxVelocity": 0.4,
+	"buildPower": 0.7,
+	"drag": 0.07,
+	"attackLength": 5,
+	"rotateWeapon": true,
+	"weapons":
+	[{
+		"name": "inquisition-arc",
+		"y": -15,
+		"x": 0,
+		"recoil": 2,
+		"alternate": false,
+		"reload": 65,
+		"shots": 2,
+		"shootSound": "spark",
+		"bullet": {
+			"type": "LightningBulletType",
+			"damage": 45,
+			"colidesAir": true,
+			"lightningLength": 15
+		}}],
+	"research": "Patrol-drone-mk2"
+}

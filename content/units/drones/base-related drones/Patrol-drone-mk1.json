@@ -1,0 +1,29 @@
+{
+	"type": "MechUnit",
+	"health": 450,
+	"flying": true,
+	"targetAir": true,
+	"speed": 0.42,
+	"mass": 45,
+	"rotatespeed": 5,
+	"drag": 0.05,
+	"rotateWeapon": false,
+	"weapons": [
+       {
+		"name": "lancer",
+		"x": 0,
+		"y": 0,
+		"recoil": 3,
+		"alternate": true,
+		"reload": 100,
+		"heatColor": "red",
+		"bullet": {
+		"type": "LaserBulletType",
+		"hitEffect": "hitLancer",
+		"damage": 75,
+		"lifetime": 16,
+		"drawSize": 350,
+		"colidesAir": true
+	}}],
+	"research": "mono"
+}
