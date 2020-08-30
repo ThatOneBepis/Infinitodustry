@@ -1,0 +1,39 @@
+{
+	"type": "Reconstructor",
+	"itemCapacity": 500,
+	"liquidCapacity": 50,
+    "constructTime": 2300,
+    "size": 7,
+	"consumes": {
+		"power": 14,
+		"items": {
+		"items": [
+            {"item": "silicon" , "amount": 305.0},
+            {"item": "graphite" , "amount": 295.0},
+            {"item": "thorium" , "amount": 255.0},
+            {"item": "toughitinum" , "amount": 275.0}
+            {"item": "tensor" , "amount": 75.0}
+        ],
+	},
+		"liquid": {
+			"liquid": "cryofluid", 
+			"amount": 1
+    }
+    },
+    "upgrades":[
+    	["fortress", "trebuchet"]
+    ],
+    "requirements": [
+		{"item": "lead", "amount": 2100},
+		{"item": "silicon", "amount": 850},
+		{"item": "titanium", "amount": 800},
+		{"item": "thorium", "amount": 500},
+		{"item": "scalar", "amount": 300},
+		{"item": "vector", "amount": 225},
+		{"item": "tensor", "amount": 150}
+	],
+	"category": "units",
+	"research": "sp2-reconstructor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

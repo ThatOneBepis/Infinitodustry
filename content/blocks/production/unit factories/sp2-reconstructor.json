@@ -1,0 +1,30 @@
+{
+	"type": "Reconstructor",
+    "constructTime": 1650,
+    "size": 5,
+	"consumes": {
+		"power": 5,
+		"items": {
+		"items": [
+            {"item": "silicon" , "amount": 135.0},
+            {"item": "scalar" , "amount": 105.0}
+            {"item": "matrix" , "amount": 65.0}
+        ],
+	}
+    },
+    "upgrades":[
+    	["Patrol-drone-mk1", "Patrol-drone-mk3"]
+    ],
+    "requirements": [
+		{"item": "lead", "amount": 1400},
+		{"item": "silicon", "amount": 450},
+		{"item": "titanium", "amount": 400},
+		{"item": "metaglass", "amount": 200},
+		{"item": "scalar", "amount": 330},
+		{"item": "matrix", "amount": 215}
+	],
+	"category": "units",
+	"research": "sp1-reconstructor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

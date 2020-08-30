@@ -1,0 +1,39 @@
+{
+	"type": "Reconstructor",
+	"liquidCapacity": 50,
+    "constructTime": 3750,
+    "size": 9,
+	"consumes": {
+		"power": 30,
+		"items": {
+		"items": [
+            {"item": "silicon" , "amount": 495.0},
+            {"item": "infiar" , "amount": 250.0},
+            {"item": "thorium" , "amount": 365.0},
+            {"item": "blast-fabric" , "amount": 315.0}
+            {"item": "surge-alloy" , "amount": 275.0}
+        ],
+	},
+		"liquid": {
+			"liquid": "cryofluid", 
+			"amount": 2
+    }
+    },
+    "upgrades":[
+    	["arkyid", "doombringer"]
+    ],
+    "requirements": [
+		{"item": "lead", "amount": 4500},
+		{"item": "silicon", "amount": 1450},
+		{"item": "titanium", "amount": 1250},
+		{"item": "surge-alloy", "amount": 600},
+		{"item": "blast-fabric", "amount": 500},
+		{"item": "matrix", "amount": 450},
+		{"item": "tensor", "amount": 300},
+		{"item": "infiar", "amount": 250}
+	],
+	"category": "units",
+	"research": "sp3-reconstructor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
