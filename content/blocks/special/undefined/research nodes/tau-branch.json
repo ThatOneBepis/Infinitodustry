@@ -1,0 +1,8 @@
+{
+	"requirements": [
+		{"item": "stonks", "amount": 10000}
+	],
+	"buildVisibility": "debugOnly",
+	"research": "core-shard",
+	"category": "effect"
+}

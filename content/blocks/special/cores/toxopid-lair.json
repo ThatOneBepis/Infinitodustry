@@ -1,0 +1,18 @@
+{
+	"type": "CoreBlock",
+	"health": 3500,
+	"size": 9,
+	"itemCapacity": 500,
+	"unitCapModifier": 5,
+	"unitType": "toxopid",
+	"requirements": [
+		{"item": "lead", "amount": 6500},
+		{"item": "graphite", "amount": 5000},
+		{"item": "silicon", "amount": 4500},
+		{"item": "plastanium", "amount": 2000},
+		{"item": "surge-alloy", "amount": 2500},
+		{"item": "matrix", "amount": 2700}
+	],
+	"category": "effect",
+	"research": "tau-branch"
+}
