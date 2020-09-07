@@ -1,5 +1,5 @@
 {
-	"type": "DoubleTurret",
+	"type": "ItemTurret",
 	"health": 860,
 	"size": 2,
 	"reload": 15,
@@ -9,7 +9,7 @@
 	"inaccuracy": 0,
 	"BlockGroup": "turrets",
 	"rotatespeed": 20,
-	"ammo": {
+	"ammoTypes": {
 		"copper": {
 			"speed": 4.5,
 			"damage": 20,

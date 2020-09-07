@@ -13,9 +13,9 @@
 	"ammoUseEffect": "explosion",
 	"inaccuracy": 0,
 	"rotatespeed": 1000000000000000,
-	"ammo": {
+	"ammoTypes": {
 		"blast-compound": {
-			"splashDamage": 10,
+			"splashDamage": 150,
 			"splashDamageRadius": 160,
 			"ammoMultiplier": 1,
 			"bulletWidth": 20,

@@ -1,5 +1,5 @@
 {
-	"type": "ArtilleryTurret",
+	"type": "ItemTurret",
 	"health": 1650,
 	"size": 3,
 	"reload": 60,
@@ -13,7 +13,7 @@
 	"inaccuracy": 5,
 	"rotatespeed": 10,
 	"BlockGroup": "turrets",
-	"ammo": {
+	"ammoTypes": {
 		"plastanium": {
 			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
