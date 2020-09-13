@@ -11,7 +11,7 @@
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
 	"BlockGroup": "turrets",
-	"ammo": {
+	"ammoTypes": {
 		"infiar": {
 			"speed": 20,
 			"lifetime": 15,
