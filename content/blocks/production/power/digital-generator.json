@@ -4,7 +4,7 @@
 	"size": 3,
 	"hasLiquids": false,
 	"hasItems": true,
-    "powerProduction": 150,
+    "powerProduction": 1500,
     "itemDuration" : 15,
 	"updateEffect": "none",
 	"consumes": {
@@ -25,7 +25,7 @@
 		{ "item": "blast-fabric", "amount": 80 }
 	],
 	"category": "power",
-	"research": "tensor-drill",
+	"research": "rtg-generator",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

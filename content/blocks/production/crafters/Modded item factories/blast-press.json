@@ -23,7 +23,7 @@
 		{ "item": "silicon", "amount": 120 },
 	],
 	"category": "crafting",
-	"research": "blast-fabric",
+	"research": "blast-mixer",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

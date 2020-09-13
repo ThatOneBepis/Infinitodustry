@@ -22,7 +22,7 @@
 		{ "item": "lead", "amount": 100 }
 	],
 	"category": "crafting",
-	"research": "stonks",
+	"research": "core-shard",
 	"buildVisibility": "campaignOnly",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5

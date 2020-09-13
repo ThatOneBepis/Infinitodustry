@@ -28,7 +28,7 @@
 		{ "item": "tau-plate", "amount": 145 }
 	],
 	"category": "crafting",
-	"research": "ink",
+	"research": "core-shard",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

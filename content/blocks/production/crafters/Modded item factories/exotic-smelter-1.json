@@ -25,7 +25,7 @@
 		{ "item": "vector", "amount": 60 },
 	],
 	"category": "crafting",
-	"research": "toughitinum",
+	"research": "core-shard",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

@@ -22,10 +22,10 @@
 		{ "item": "lead", "amount": 50 },
 		{ "item": "copper", "amount": 80 },
 		{ "item": "silicon", "amount": 15 },
-		{ "item": "metaglass", "amount": 15 },
+		{ "item": "graphite", "amount": 15 },
 	],
 	"category": "crafting",
-	"research": "visionary-glass",
+	"research": "core-shard",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

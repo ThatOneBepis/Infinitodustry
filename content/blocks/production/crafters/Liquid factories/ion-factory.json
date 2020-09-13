@@ -27,7 +27,7 @@
 		{ "item": "tau-plate", "amount": 65},
 	],
 	"category": "crafting",
-	"research": "ion-matter",
+	"research": "core-shard",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

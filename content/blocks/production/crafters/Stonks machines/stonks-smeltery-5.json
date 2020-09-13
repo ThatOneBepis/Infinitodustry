@@ -2,7 +2,7 @@
 	"type": "GenericSmelter",
 	"itemCapacity": 50,
 	"outputItem": {"item": "stonks", "amount": 15.0},
-	"size": 4,
+	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"craftTime": 300,
