@@ -13,7 +13,8 @@
 	}
     },
     "upgrades":[
-    	["Patrol-drone-mk1", "Patrol-drone-mk3"]
+    	["patrol-drone-mk1", "patrol-drone-mk3"],
+    	["missile-mech-1", "missile-mech-2"],
     ],
     "requirements": [
 		{"item": "lead", "amount": 1400},
