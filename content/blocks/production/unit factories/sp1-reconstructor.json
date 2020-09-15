@@ -13,7 +13,8 @@
 	}
     },
     "upgrades":[
-    	["mono", "Patrol-drone-mk1"]//currently serves as a placeholder because reasons
+    	["patrol-drone-mk1", "patrol-drone-mk2"],//currently serves as a placeholder because reasons
+    	["dagger", "missile-mech-1"],
     ],
     "requirements": [
 		{"item": "lead", "amount": 250},
