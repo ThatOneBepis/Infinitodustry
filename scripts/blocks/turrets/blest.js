@@ -7,8 +7,8 @@ const blast = lib.extend(ItemTurret, ItemTurret.ItemTurretBuild, "blast-tower", 
     {
       type: "linear",
       field: "splashDamage",
-      start: initial "splashDamage",
-      intensity: initial "splashDamage"*0.1
+      start: "splashDamage",
+      intensity: "splashDamage"*0.1
     }
   ],
   //The original Block extension object. Excluded because it uses unconventional means of warfare
@@ -20,13 +20,13 @@ const blast = lib.extend(ItemTurret, ItemTurret.ItemTurretBuild, "blast-tower", 
   //The original Building extension object.
   shoot(type){
     //Increment EXP, replace this with whenever you want the block to gain EXP.
-    this.incExp(20);
+    this.incExp(5);
     print("Reload: "+blast.reloadTime);
     this.super$shoot(type);
   },
   levelUp(level){
     print("This tower has blasted into level " + level);
-  }
+  },
   load: function(){
     this.region = Core.atlas.find("clear");
     this.heatRegion = Core.atlas.find(this.name + "-pillar");
