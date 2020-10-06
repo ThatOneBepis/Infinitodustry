@@ -140,9 +140,9 @@ Coloring role: Cyan
 Tier: 2
 -Poly
 Regular drones what go into empty areas looking for a spot to create a base. If a base already exists, they will reconstruct destroyed structures, and help with creation of new ones.
-Coloring role: Cyan
+Coloring role: Lime
 Tier: 2
 -Mono
 Mining drone what collects resources. Lacking of them is mostly going to cause early-base resource shortages.
-Coloring role: Cyan
+Coloring role: Lime
 Tier: 1
