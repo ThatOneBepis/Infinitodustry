@@ -1,0 +1,146 @@
+{
+	"type": "ItemTurret",
+	"health": 1000,
+	"size": 2,
+	"reload": 45,
+	"range": 160,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0,
+	"BlockGroup": "turrets",
+	"rotatespeed": 15,
+	"shots": 5,
+	"ammoPerShot": 0.2,
+	"shootCone": 65,
+	"ammoTypes": {
+		"copper": {
+			"type": "BasicBulletType",
+			"speed": 3,
+			"damage": 15,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullets": 3,
+			"pierce": true,
+			"pierceCap": 3,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 5
+			}
+		},
+		"graphite": {
+			"type": "BasicBulletType",
+			"speed": 6,
+			"damage": 30,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reloadMultiplier": 0.8,
+			"fragBullets": 3,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 15
+			}
+		},
+		"scrap": {
+			"type": "BasicBulletType",
+			"speed": 3,
+			"damage": 10,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 0.5,
+			"fragBullets": 7,
+			"pierce": true,
+			"pierceCap": 3,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 5
+			}
+		},
+		"plastanium": {
+			"type": "BasicBulletType",
+			"speed": 3,
+			"damage": 35,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullets": 15,
+			"pierce": true,
+			"pierceCap": 3,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 5
+			}
+	    },
+		"phase-fabric": {
+			"type": "BasicBulletType",
+			"speed": 3,
+			"damage": 30,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullets": 5,
+			"pierce": true,
+			"pierceCap": 15,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 10
+			}
+	    },
+		"surge-alloy": {
+			"type": "BasicBulletType",
+			"speed": 3,
+			"damage": 60,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullets": 3,
+			"pierce": true,
+			"pierceCap": 10,
+			"lightining" : 2,
+            "lightningLength" : 10,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 15,
+				"lightining" : 1,
+            	"lightningLength" : 5
+			}
+		},
+		"toughitinum": {
+			"type": "BasicBulletType",
+			"speed": 3,
+			"damage": 65,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullets": 3,
+			"pierce": true,
+			"pierceCap": 5,
+			"fragCone": 15,
+			"fragBullet": {
+				"fragVelocityMin": 1,
+				"damage": 15
+			}
+		}
+	    },
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 70 },
+		{ "item": "silicon", "amount": 130 },
+        { "item": "graphite", "amount": 80 }
+	],
+	"category": "turret",
+	"research": "scatter"
+}
