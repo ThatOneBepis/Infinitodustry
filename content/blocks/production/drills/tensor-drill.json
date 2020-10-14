@@ -27,5 +27,5 @@
 		{ "item": "toughitinum", "amount": 60 }
 	],
 	"category": "production",
-	"research": "matrix-drill"
+	"research": "matrix"
 }
