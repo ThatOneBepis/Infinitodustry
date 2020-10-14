@@ -6,6 +6,7 @@
 	"speed": 70,
 	"BlockGroup": "transportation",
 	"bufferCapacity": 20,
+	"placeableLiquid": true,
 	"requirements": [
 		{ "item": "matrix", "amount": 6 },
 		{ "item": "titanium", "amount": 12},
