@@ -25,5 +25,5 @@
 		{ "item": "plastanium", "amount": 90 }
 	],
 	"category": "production",
-	"research": "infiar-drill"
+	"research": "tensor"
 }
