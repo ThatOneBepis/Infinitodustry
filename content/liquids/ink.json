@@ -1,6 +1,10 @@
-
 {
-	"type": "liquid",
+	"research": {
+    "parent": "oil",
+    "requirements":[
+        {"item": "plastanium", "amount": 12000},
+        {"item": "stonks", "amount": 18000}
+    ]},
 	"temperature": 0.6,
     "viscosity": 0.6,
     "flammability": 0.7,

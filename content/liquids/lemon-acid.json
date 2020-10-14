@@ -1,4 +1,10 @@
 {
+	"research": {
+    "parent": "lemon",
+    "requirements":[
+        {"item": "lemon", "amount": 17500},
+        {"item": "stonks", "amount": 21500}
+    ]},
 	"temperature": 0.5,
     "viscosity": 0.5,
     "effect": "melting",

@@ -1,6 +1,11 @@
 
 {
-	"type": "liquid",
+	"research": {
+    "parent": "pyratite",
+    "requirements":[
+        {"item": "pyratite", "amount": 20000},
+        {"item": "stonks", "amount": 25000}
+    ]},
 	"temperature": 10,
     "viscosity": 0,
     "heatCapacity": 1.5,
