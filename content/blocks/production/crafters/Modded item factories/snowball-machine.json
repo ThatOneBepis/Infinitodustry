@@ -21,7 +21,7 @@
 		{ "item": "scalar", "amount": 15 }
 	],
 	"category": "crafting",
-	"research": "water-extractor",
+	"research": "snowball",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

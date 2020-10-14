@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"itemCapacity": 45,
-	"outputItem": {"item": "stonks", "amount": 5.0},
+	"outputItem": {"item": "stonks", "amount": 10.0},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,

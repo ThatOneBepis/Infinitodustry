@@ -28,6 +28,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"research": "core-shard",
+	"research": "catrige",
 	"idleSoundVolume": 0.5
 }

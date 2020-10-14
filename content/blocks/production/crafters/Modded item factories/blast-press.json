@@ -12,7 +12,8 @@
 		"items": {
         "items": [
         {"item": "plastanium", "amount": 2},
-        {"item": "blast-compound", "amount": 2}
+        {"item": "blast-compound", "amount": 2},
+        {"item": "phase-fabric", "amount": 1}
     ]
     }
 	},
@@ -23,7 +24,7 @@
 		{ "item": "silicon", "amount": 120 },
 	],
 	"category": "crafting",
-	"research": "blast-mixer",
+	"research": "blast-fabric",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

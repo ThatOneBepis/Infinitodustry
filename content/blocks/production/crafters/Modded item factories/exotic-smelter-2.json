@@ -25,7 +25,7 @@
 		{ "item": "graphite", "amount": 60 },
 	],
 	"category": "crafting",
-	"research": "core-shard",
+	"research": "tau-plate",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

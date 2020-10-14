@@ -1,11 +1,11 @@
 {
 	"type": "GenericSmelter",
 	"itemCapacity": 50,
-	"outputItem": {"item": "stonks", "amount": 15.0},
+	"outputItem": {"item": "stonks", "amount": 25.0},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
-	"craftTime": 300,
+	"craftTime": 400,
 	"updateEffect": "smeltsmoke",
 	"flameColor": "ffef99",
 	"consumes": {

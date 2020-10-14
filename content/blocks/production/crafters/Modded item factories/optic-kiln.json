@@ -25,7 +25,7 @@
 		{ "item": "graphite", "amount": 15 },
 	],
 	"category": "crafting",
-	"research": "core-shard",
+	"research": "visionary-glass",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
