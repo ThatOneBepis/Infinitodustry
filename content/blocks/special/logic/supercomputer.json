@@ -1,0 +1,10 @@
+{
+	"type": "LogicBlock",
+	"health": 100,
+	"size": 3,
+	"instructionsPerTick": 1000000,
+	"maxInstructionScale ": 10000000,
+	"range": 1500,
+	"category": "logic",
+	"buildVisibility": "sandboxOnly"
+}

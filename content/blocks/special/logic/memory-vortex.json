@@ -1,0 +1,13 @@
+{
+	"type": "MemoryBlock",
+	"health": 150,
+	"size": 3,
+	"memoryCapacity": 16384,
+	"requirements": [
+		{"item": "silicon", "amount": 150},
+		{"item": "graphite", "amount": 140},
+		{"item": "infiar", "amount": 50}
+	],
+	"category": "logic",
+	"research": "memory-bank"
+}

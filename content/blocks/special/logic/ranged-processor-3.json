@@ -1,0 +1,10 @@
+{
+	"type": "LogicBlock",
+	"health": 100,
+	"size": 3,
+	"instructionsPerTick": 15,
+	"consumes": {"power": 5},
+	"range": 500,
+	"category": "logic",
+	"buildVisibility": "sandboxOnly"
+}

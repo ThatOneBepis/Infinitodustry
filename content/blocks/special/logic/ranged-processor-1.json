@@ -1,0 +1,9 @@
+{
+	"type": "LogicBlock",
+	"health": 100,
+	"size": 2,
+	"instructionsPerTick": 0.5,
+	"range": 200,
+	"category": "logic",
+	"buildVisibility": "sandboxOnly"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "MessageBlock",
+	"health": 100,
+	"size": 2,
+	"maxTextLength": 3300,
+	"maxNewlines": 360,
+	"requirements": [
+		{"item": "graphite", "amount": 45},
+		{"item": "titanium", "amount": 30},
+		{"item": "infiar", "amount": 20}
+	],
+	"category": "logic",
+	"research": "message"
+}
