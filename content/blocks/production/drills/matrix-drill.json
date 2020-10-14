@@ -22,5 +22,5 @@
 		{ "item": "plastanium", "amount": 100 }
 	],
 	"category": "production",
-	"research": "matrix"
+	"research": "vector"
 }
