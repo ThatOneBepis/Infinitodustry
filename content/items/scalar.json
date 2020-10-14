@@ -1,11 +1,12 @@
 {
 	"cost": 1,
 	"hardness": 4,
-	"research": "stonks",
 	"color": "50d63f",
+	"research": {
+	"parent": "scalar-drill",
 	"requirements":
 	[
-		{"item": "visionary-glass", "amount": 5000},
-		{"item": "stonks", "amount": 25000}
-	]
+		"visionary-glass/5000",
+		"stonks/25000"
+	]}
 }

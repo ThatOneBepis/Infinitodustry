@@ -1,14 +1,15 @@
 {
-	"research": "tensor",
+	"research": {
+    "parent": "infiar-drill",
 	"requirements":
 	[
-		{"item": "tensor", "amount": 22500},
-		{"item": "matrix", "amount": 32500},
-		{"item": "vector", "amount": 42500},
-		{"item": "scalar", "amount": 52500},
-		{"item": "scrap", "amount": 55000},
-		{"item": "stonks", "amount": 200000}
-	],
+		"tensor/22500",
+		"matrix/32500",
+		"vector/42500",
+		"scalar/52500",
+		"scrap/55000",
+		"stonks/200000"
+	]},
 	"cost": 2,
 	"hardness": 10,
 	"color": "57f1fe"

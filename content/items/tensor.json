@@ -1,12 +1,13 @@
 {
-	"research": "matrix",
+	"research": {
+	"parent": "tensor-drill",
 	"requirements":
 	[
-		{"item": "matrix", "amount": 16000},
-		{"item": "vector", "amount": 21000},
-		{"item": "scalar", "amount": 25000},
-		{"item": "stonks", "amount": 85000}
-	],
+		"matrix/16000",
+		"vector/21000",
+		"scalar/25000",
+		"stonks/95000"
+	]},
 	"flammability": 0.9,
 	"explosiveness": 0.7,
 	"cost": 1.7,

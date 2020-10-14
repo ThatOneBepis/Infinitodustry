@@ -1,11 +1,12 @@
 {
-	"research": "vector",
+	"research": {
+	"parent": "vector",
 	"requirements":
 	[
-		{"item": "vector", "amount": 3000},
-		{"item": "copper", "amount": 9000},
-		{"item": "coal", "amount": 4500},
-		{"item": "stonks", "amount": 42500}
-	],
+		"vector/12000",
+		"copper/23000",
+		"coal/17000",
+		"stonks/42500"
+	]},
 	"color": "66a00d"
 }

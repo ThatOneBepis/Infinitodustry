@@ -1,5 +1,10 @@
 {
-	"type": "resource",
+	"research": {
+    "parent": "spore-pod",
+    "requirements":[
+        "spore-pod/15000",
+        "stonks/17000"
+    ]},
 	"cost": 1.6,
 	"flammability": 0.95,
 	"explosiveness": 0.15,

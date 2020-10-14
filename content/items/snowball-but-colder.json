@@ -1,10 +1,11 @@
 {
-	"research": "snowball",
 	"color": "67c1e1",
+	"research": {
+	"parent": "snowball-machine",
 	"requirements":
 	[
-		{"item": "snowball", "amount": 15000},
-		{"item": "titanium", "amount": 10000},
-		{"item": "stonks", "amount": 25000}
-	]
+		"snowball/15000",
+		"titanium/10000",
+		"stonks/25000"
+	]}
 }

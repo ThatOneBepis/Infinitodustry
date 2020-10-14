@@ -1,8 +1,6 @@
 {
-	"research": "water-extractor",
 	"color": "dbdbdb",
-	"requirements":
-	[
-		{"item": "stonks", "amount": 10000}
-	]
+	"research": {
+	"parent": "water-extractor",
+	"requirements": ["stonks/10000"]}
 }

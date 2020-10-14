@@ -1,10 +1,11 @@
 {
-	"research": "ink",
+	"research": {
+	"parent": "ink-factory",
 	"requirements":
 	[
-		{"item": "plastanium", "amount": 10000},
-		{"item": "stonks", "amount": 35000}
-	],
+		"plastanium/10000",
+		"stonks/35000"
+	]},
 	"flammability": 0.8,
 	"explosiveness": 1.15,
 	"color": "cbd97f"

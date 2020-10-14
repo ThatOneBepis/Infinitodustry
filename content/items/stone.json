@@ -1,9 +1,7 @@
 {
 	"color": "494949",
 	"hardness": 3,
-	"research": "stonks",
-	"requirements":
-	[
-		{"item": "stonks", "amount": 35000}
-	]
+	"research": {
+	"parent": "tau-branch",
+	"requirements": ["stonks/15000"]}
 }

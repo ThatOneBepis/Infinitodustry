@@ -1,13 +1,13 @@
 {
-	"requirements":
-	[
-		{"item": "plastanium", "amount": 35000},
-		{"item": "blast-compound", "amount": 15000},
-		{"item": "stonks", "amount": 75000}
-	],
+	"research":{
+	"parent": "blast-mixer",
+	"requirements":[
+		"plastanium/35000",
+		"blast-compound/15000",
+		"stonks/75000"
+	]},
 	"cost": 1,
 	"color": "3a3a3a",
 	"flammability": 1,
-	"explosiveness": -0.5,
-	"research": "blast-mixer"
+	"explosiveness": -0.5
 }

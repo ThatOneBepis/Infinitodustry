@@ -1,11 +1,12 @@
 {
-	"research": "vector",
+	"research": {
+    "parent": "matrix-drill",
 	"requirements":
 	[
-		{"item": "vector", "amount": 10000},
-		{"item": "scalar", "amount": 12500},
-		{"item": "stonks", "amount": 50000}
-	],
+		"vector/10000",
+		"scalar/12500",
+		"stonks/50000"
+	]},
 	"cost": 1.6,
 	"hardness": 6,
 	"flammability": 1.15,

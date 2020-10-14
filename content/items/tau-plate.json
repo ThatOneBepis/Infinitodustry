@@ -1,10 +1,12 @@
 {
-	"research": "scalar",
+	"research": {
+	"parent": "tau-branch",
 	"requirements":
 	[
-		{"item": "scalar", "amount": 6000},
-		{"item": "stone", "amount": 4000}
-		{"item": "stonks", "amount": 35000}
-	],
+		"stonks/35000",
+		"graphite/8500",
+		"titanium/7500",
+		"stone/5000"
+	]},
 	"color": "e1b75e" 
 }

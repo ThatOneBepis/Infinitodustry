@@ -1,10 +1,11 @@
 {
 	"color": "FFD700",
-	"research": "core-shard",
+	"research": {
+	"parent": "core-shard",
 	"requirements":
 	[
-		{"item": "copper", "amount": 7500},
-		{"item": "lead", "amount": 7500},
-		{"item": "graphite", "amount": 7500}
-	]
+		"copper/7500",
+		"lead/7500",
+		"graphite/7500"
+	]}
 }

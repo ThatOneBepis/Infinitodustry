@@ -1,10 +1,11 @@
 {
-	"research": "scalar",
+	"research": {
+	"parent": "vector-drill",
 	"requirements":
 	[
-		{"item": "scalar", "amount": 6000},
-		{"item": "stonks", "amount": 35000}
-	],
+		"scalar/6000",
+		"stonks/35000"
+	]},
 	"cost": 1.5,
 	"hardness": 5,
 	"color": "5d5de2"
