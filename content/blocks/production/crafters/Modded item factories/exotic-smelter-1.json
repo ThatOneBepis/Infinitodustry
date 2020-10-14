@@ -25,7 +25,5 @@
 		{ "item": "vector", "amount": 60 },
 	],
 	"category": "crafting",
-	"research": "toughitinum",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "toughitinum"
 }

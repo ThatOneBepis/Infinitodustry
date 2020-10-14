@@ -24,7 +24,5 @@
 		{ "item": "lead", "amount": 25 }
 	],
 	"category": "crafting",
-	"research": "phase-weaver",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "phase-weaver"
 }

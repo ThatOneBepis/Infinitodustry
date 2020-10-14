@@ -25,7 +25,5 @@
 		{ "item": "matrix", "amount": 45 }
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "silicon-smelter"
 }

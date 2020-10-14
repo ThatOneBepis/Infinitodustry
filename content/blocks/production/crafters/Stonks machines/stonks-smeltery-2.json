@@ -25,7 +25,5 @@
 	],
 	"category": "crafting",
 	"research": "stonks-smeltery-1",
-	"buildVisibility": "campaignOnly",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"buildVisibility": "campaignOnly"
 }

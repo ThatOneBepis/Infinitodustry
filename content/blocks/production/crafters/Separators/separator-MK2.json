@@ -33,7 +33,5 @@
 		{ "item": "stone", "amount": 85}
 	],
 	"category": "crafting",
-	"research": "separator",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "separator"
 }

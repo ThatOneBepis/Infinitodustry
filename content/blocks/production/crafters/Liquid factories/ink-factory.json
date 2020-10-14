@@ -28,7 +28,5 @@
 		{ "item": "tau-plate", "amount": 145 }
 	],
 	"category": "crafting",
-	"research": "ink",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "ink"
 }

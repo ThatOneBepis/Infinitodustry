@@ -30,7 +30,5 @@
 		{ "item": "surge-alloy", "amount": 120 }
 	],
 	"category": "crafting",
-	"research": "blast-mixer",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "blast-mixer"
 }

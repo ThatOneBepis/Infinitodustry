@@ -30,6 +30,4 @@
 	],
 	"category": "crafting",
 	"research": "ion-factory",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
 }

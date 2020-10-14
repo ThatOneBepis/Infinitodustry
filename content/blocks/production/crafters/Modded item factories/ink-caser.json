@@ -27,7 +27,5 @@
 		{ "item": "plastanium", "amount": 105 }
 	],
 	"category": "crafting",
-	"idleSound": "respawning",
-	"research": "catrige",
-	"idleSoundVolume": 0.5
+	"idleSound": "respawning"
 }

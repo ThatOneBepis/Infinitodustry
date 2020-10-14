@@ -25,7 +25,5 @@
 		{ "item": "graphite", "amount": 60 },
 	],
 	"category": "crafting",
-	"research": "tau-plate",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "tau-plate"
 }

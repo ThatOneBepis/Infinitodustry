@@ -54,7 +54,5 @@
 		{ "item": "blast-fabric", "amount": 95}
 	],
 	"category": "crafting",
-	"research": "separator-MK2",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "separator-MK2"
 }

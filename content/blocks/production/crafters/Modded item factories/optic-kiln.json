@@ -25,7 +25,5 @@
 		{ "item": "graphite", "amount": 15 },
 	],
 	"category": "crafting",
-	"research": "visionary-glass",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "visionary-glass"
 }

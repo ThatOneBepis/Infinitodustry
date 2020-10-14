@@ -21,7 +21,5 @@
 		{ "item": "scalar", "amount": 15 }
 	],
 	"category": "crafting",
-	"research": "snowball",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "snowball"
 }

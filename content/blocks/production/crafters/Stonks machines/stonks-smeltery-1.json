@@ -23,7 +23,5 @@
 	],
 	"category": "crafting",
 	"research": "stonks",
-	"buildVisibility": "campaignOnly",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"buildVisibility": "campaignOnly"
 }

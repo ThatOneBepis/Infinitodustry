@@ -26,7 +26,5 @@
 		{ "item": "silicon", "amount": 50}
 	],
 	"category": "crafting",
-	"research": "snowball-but-colder",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "snowball-but-colder"
 }
