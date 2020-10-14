@@ -1,0 +1,10 @@
+{
+	"type": "CoreBlock",
+	"health": 1000,
+	"size": 2,
+	"itemCapacity": 0,
+	"requirements": [],
+	"buildVisibility": "sandboxOnly",
+	"alwaysUnlocked": false,
+	"category": "effect"
+}
