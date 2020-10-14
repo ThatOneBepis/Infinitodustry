@@ -1,0 +1,28 @@
+{
+	"type": "UnitEntity",
+	"targetable": false,
+	"rotatespeed": 0.9,
+	"health": 135,
+	"flying": true,
+	"research": "drone-factory",
+	"mass": 5,
+	"drag": 0.5,
+	"speed": 1.25,
+	"armor": 1,
+	"weapons":
+	[{
+		"name": "darkness",
+		"reload": 120,
+		"roundRobin": true,
+		"x": 0,
+		"y": -2,
+		"bullet":
+		{
+			"frontColor": "791515",
+			"backColor": "791515",
+			"damage": 150,
+			"lifetime": 30,
+			"speed": 5
+		}
+	}]
+}
