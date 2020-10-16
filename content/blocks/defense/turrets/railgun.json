@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"health": 2350,
 	"size": 4,
-	"reload": 135,
+	"reloadTime": 135,
 	"targetGround": true,
 	"targetAir": true,
 	"range": 250,
