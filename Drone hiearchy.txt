@@ -12,19 +12,19 @@ Tier: 5
 
 --Archangel
 All drones are like Divinity, but with little to no offensive weaponry. Only rare numbers exist, most either act as frontline commanders, while some retain near Divinity, being pain in the ass to all whom dares to slay him.
-Coloring role: Cyan/Lime
+Coloring role: Purple
 Tier: 5
 
 --Cycler
-Misterious "drones", which serve differing purposes based off their design, which all share same weapon design (Divinity uses that weapon type too to an extent). Serves as "bosses", which have specific playgrounds and mechanics, while some may appear randomly.
+Misterious "drones", which serve differing purposes based off their design, which all have atleast one of Divinity's weapons. Serves as "bosses", which may have specific playgrounds and mechanics, while some may appear randomly.
 -Mobwagon
-A ship which supports raids of bases which did not expect an air assault. Most common (internally used to be named "experiment", as their implementation was in experimental fashion). May or may have different segments which spawn Angel Drones upon death.
+A ship which supports raids of bases which did not expect an air assault. Most common (internally used to be named "experiment", as their implementation was in experimental fashion). May or may have different segments which spawn Low-tier drones upon death.
 Coloring role: Orange/Lime
 Fighting location: Any, produced in "Wagoonlagoon" sector.
 Tier: 4
 -Messanger
 Mothership, which launches small Messy attack drones. Said drones are often used to distract enemy deffenses if they were to fire while Messanger would send it's prophecies (whatever Divinity would want to be sent to them). Hates Ion cannons, as they can dish out much damage out of nowhere. Also your to-go guy for legal advices.
-Coloring role: Purple/Red
+Coloring role: Purple/Orange
 Fighting location: Any
 Tier: unknown
 -Mr. Genocide
@@ -34,7 +34,7 @@ Fighting location: Base-less attacks
 Tier: unknown
 -Havocc
 Support ship what loves chaos. Has armed himself with force fields, teleportation module, and critters. Sees uprises as entertaintment, rather than a problem (as he himself solves them).
-Coloring role: Purple/Cyan
+Coloring role: Dark Red/Cyan
 Fighting location: Mount. Chaos
 Tier: unknown
 -Fed EX
@@ -44,18 +44,18 @@ Fighting location: Any, requires to ecounter it manually. If beaten, may heavily
 Tier: 6/Mobile core
 -Pointer
 Terran command tank, but it flies. And has arc cannons.
-Coloring role: Lime/Purple
+Coloring role: Cyan/Purple
 Fighting location: Any, produced in "NullPointerArray" sector.
 Tier: 4
 -Angel
-A flying medic boss, with majority of it's combat capabilities depending on a water/shock synergy (aka not good for taking down bases). Also has point-defence slapped on it, for an increase of survivability. 
-Coloring role: Lime
+A flying medic boss, with majority of it's combat capabilities depending on a water/shock synergy (aka not good for taking down bases). Also has a powerful, slow-charging healing pulse, for an increase of survivability. 
+Coloring role: Purple
 Fighting location: Where reconstructor needed for producing them is existing.
 Tier: 4
 
 --Inquisitor
 Most trusted of regular drones, allowing them to equip double-egded detection system. They guard every location of interest, where Black widow and Reverse-engineered Shadow Drones which could deal too much damage what could be accepted. Yes, Sensor arrays are a thing, but no, they are not that economic for Divinity's taste.
-Coloring role: Brown/Purple
+Coloring role: Cyan
 Tier: 3
 
 --Oct
@@ -86,7 +86,7 @@ Tier: 4
 
 --Patriarch
 Auxuliary drone what is capable of deffending itself from the enemy and being able to heal more than one unit at the time. Used where Priests would be deemed less effective (like, everywhere).
-Coloring role: Lime
+Coloring role: Purple
 Tier: 3
 
 --Abyss
@@ -109,8 +109,8 @@ Booster of bases, projects overdriving, boosting production and fire rate of tur
 Coloring role: Cyan
 Tier: 2
 -Monarch
-Support unit that has decent weaponary, lasers getting rid of status effects and is repairing buildings, although they cannot defend themselves when attacked by the enemy.
-Coloring role: Lime
+Support unit that has decent weaponary, lasers getting rid of status effects and bullets, although they cannot defend themselves when attacked by the enemy.
+Coloring role: Purple
 Tier: 2
 
 --Crusader
@@ -132,7 +132,7 @@ Tier: 3
 More vanilla-ish drones, what are lowest in the hiearchy. Their role can be said by their looks. Widespread among Mindustry civilisation.
 -Priest
 Pretty much, a medic. Roles are proportional to those of medics.
-Coloring role: Lime
+Coloring role: Purple
 Tier: 1
 -Knight
 Patrol drone, which guards bases. Armed with lancers to banish their foes.
