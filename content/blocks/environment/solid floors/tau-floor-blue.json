@@ -1,4 +1,5 @@
 {
 	"type": "Floor",
-	"variants": 0
+	"variants": 0,
+	"wall": "tau-wall-blue"
 }

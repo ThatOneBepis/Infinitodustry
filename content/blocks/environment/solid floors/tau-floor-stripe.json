@@ -1,5 +1,6 @@
 {
 	"type": "Floor",
 	"blendGroup": "tau-floor",
-	"variants": 0
+	"variants": 0,
+	"wall": "tau-wall"
 }

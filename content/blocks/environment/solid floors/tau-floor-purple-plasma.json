@@ -1,12 +1,13 @@
 {
 	"type": "Floor",
 	"blendGroup": "tau-floor-purple",
+	"wall": "tau-wall-purple",
 	"variants": 0,
 	"emitLight": true,
 	"lightRadius": 30,
-	"lightColor": "cyan",
+	"lightColor": "#00ffff62",
     "attributes": [
     	{"type": "heat", "amount": 0.3},
-    	{"type": "water", "amount": -0.1}
+    	{"type": "water", "amount": -0.25}
     ]
 }
