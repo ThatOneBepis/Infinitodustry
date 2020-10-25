@@ -1,7 +1,7 @@
 {
   "name": "Infinitodustry+",
   "author": "[orange]Anuke, [accent]but not really",
-  "description": "Bepis tries to mod 6.0 in pre-alpha (circa 2020, Binary)",
+  "description": "Bepis tries to mod 6.0 beta (circa 2020, Binary)",
   "version": 6.0,
-  "minGameVersion": 105,
+  "minGameVersion": 110,
 }
