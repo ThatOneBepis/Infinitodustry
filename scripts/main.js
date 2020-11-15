@@ -4,7 +4,7 @@ require("mechanics/multi-lib"); //courtersy of younggam/multi-lib
 //endregion
 //region campaign
 require("campaign/research");
-require("campaign/planets/ainamelzung");
+//require("campaign/planets/ainamelzung");
 //endregion
 //region units
 require("units/ground/missile-branch");
