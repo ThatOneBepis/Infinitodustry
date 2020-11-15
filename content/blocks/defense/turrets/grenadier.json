@@ -10,9 +10,10 @@
     "collidesAir": false,
     "minRange": 30,
 	"range": 180,
-	"ammoUseEffect": "shellEjectBig",
+	"ammoUseEffect": "casing2",
 	"inaccuracy": 5,
 	"rotatespeed": 10,
+	"shootSound": "artillery",
 	"BlockGroup": "turrets",
 	"ammoTypes": {
 		"plastanium": {

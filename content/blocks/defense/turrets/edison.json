@@ -2,6 +2,7 @@
     "type": "PowerTurret",
     "targetAir": true,
     "shootType": {
+    	"type": "lightningBulletType",
         "damage": 35,
         "lightningLength": 25,
         "colidesAir": true,
@@ -21,10 +22,10 @@
     "range": 100,
     "shootEffect": "lightningShoot",
     "requirements": [
-        { "item": "plastanium", "amount": 20 },
-        { "item": "metaglass", "amount": 30 },
-        { "item": "scalar", "amount": 20 },
-        { "item": "silicon", "amount": 10 }
+        {"item": "plastanium", "amount": 20},
+        {"item": "metaglass", "amount": 30},
+        {"item": "scalar", "amount": 20},
+        {"item": "silicon", "amount": 10}
     ],
     "category": "turret",
     "shootSound": "spark",

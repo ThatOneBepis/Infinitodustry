@@ -5,7 +5,7 @@
 	"reloadTime": 15,
 	"targetGround": false,
 	"range": 200,
-	"ammoUseEffect": "shellEjectSmall",
+	"ammoUseEffect": "casing1",
 	"inaccuracy": 0,
 	"BlockGroup": "turrets",
 	"rotatespeed": 20,
@@ -14,77 +14,37 @@
 			"type": "FlakBulletType",
 			"speed": 4.5,
 			"damage": 20,
+			"splashDamage": 0,
+			"lifetime": 45,
 			"width": 6,
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke"
 		},
-		"snowball":
-			{
-			"type": "FlakBulletType",
-			"speed": 6,
-			"damage": 5,
-			"backcolor": "ffffff",
-			"frontColor": "ffffff",
-			"width": 6,
-			"height": 6,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"status": "freezing"
-			},
 		"lead": {
 			"type": "FlakBulletType",
 			"speed": 6,
-			"damage": 30,
+			"damage": 35,
 			"width": 6,
 			"height": 10,
+			"lifetime": 35,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"reloadMultiplier": 0.8
 		},
-		"silicon": {
-			"type": "FlakBulletType",
-			"speed": 4,
-			"damage": 15,
-			"width": 6,
-			"height": 10,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"lifetime": 300,
-			"homingPower" : 2,
-            "homingRange" : 50
-		},
 		"titanium": {
 			"type": "FlakBulletType",
 			"speed": 4.5,
-			"damage": 15,
-			"width": 6,
-			"height": 10,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"reloadMultiplier": 1.5
-	    },
-		"surge-alloy": {
-			"type": "FlakBulletType",
-			"speed": 4.5,
-			"damage": 35,
-			"width": 6,
-			"height": 10,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-            "lightining" : 2,
-            "lightningLength" : 25
-		},
-		"vector": {
-			"type": "FlakBulletType",
-			"speed": 10,
 			"damage": 20,
+			"pierce": true,
+			"pierceCap": 2,
+			"splashDamage": 0,
 			"width": 6,
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"reloadMultiplier": 1.1
-		},
+			"reloadMultiplier": 1.2
+	    },
 		"pyratite":
 		{
 			"type": "FlakBulletType",
@@ -95,9 +55,42 @@
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"incendAmount": 15,
-			"splashDamageRadius": 20,
-			"splashDamage": 20,
-			"lifetime": 100
+			"splashDamageRadius": 40,
+			"splashDamage": 30
+		},
+		"surge-alloy": {
+			"type": "FlakBulletType",
+			"speed": 4.5,
+			"damage": 30,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+            "lightining" : 2,
+            "lightningLength" : 25
+		},
+		"vector": {
+			"type": "FlakBulletType",
+			"speed": 7,
+			"damage": 25,
+			"width": 6,
+			"height": 10,
+			"lifetime": 30,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reloadMultiplier": 1.1
+		},
+		"toughitinum": {
+			"type": "FlakBulletType",
+			"speed": 5,
+			"damage": 45,
+			"splashDamage": 0,
+			"width": 6,
+			"height": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"pierce": true,
+			"pierceCap": 3
 		}
 	    },
 	"requirements": [

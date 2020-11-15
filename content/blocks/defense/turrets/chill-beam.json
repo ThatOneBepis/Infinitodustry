@@ -1,0 +1,29 @@
+{
+	"type": "LaserTurret",
+	"health": 1200,
+	"size": 3,
+	"reloadTime": 50, 
+	"shootDuration": 150,
+	"targetGround": true,
+	"targetAir": true,
+	"range": 140,
+	"powerUse": 15,
+	"BlockGroup": "turrets",
+	"shootSound": "laserbig",
+	"inaccuracy": 0,
+	"rotatespeed": 1000000000000000,
+	"shootType": {
+		"type": "ContinuousLaserBulletType",
+		"lengh": 150,
+		"drawSize": 100,
+		"hitEffect": "none",
+		"status": "freezing"
+	    },
+    "requirements": [
+        { "item": "titanium", "amount": 160 },
+        { "item": "surge-alloy", "amount": 120 },
+        { "item": "silicon", "amount": 95 }
+    ],
+    "category": "turret",
+    "research": "lancer"
+}

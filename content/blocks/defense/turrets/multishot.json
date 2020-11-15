@@ -2,12 +2,13 @@
 	"type": "ItemTurret",
 	"health": 1000,
 	"size": 2,
-	"reload": 45,
+	"reloadTime": 45,
 	"range": 160,
-	"ammoUseEffect": "shellEjectSmall",
+	"ammoUseEffect": "casing1",
 	"inaccuracy": 0,
 	"BlockGroup": "turrets",
 	"rotatespeed": 15,
+	"shootSound": "shootSnap",
 	"shots": 5,
 	"ammoPerShot": 0.2,
 	"shootCone": 65,
@@ -20,14 +21,8 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"fragBullets": 3,
 			"pierce": true,
-			"pierceCap": 3,
-			"fragCone": 15,
-			"fragBullet": {
-				"fragVelocityMin": 1,
-				"damage": 5
-			}
+			"pierceCap": 3
 		},
 		"graphite": {
 			"type": "BasicBulletType",
@@ -37,13 +32,7 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"reloadMultiplier": 0.8,
-			"fragBullets": 3,
-			"fragCone": 15,
-			"fragBullet": {
-				"fragVelocityMin": 1,
-				"damage": 15
-			}
+			"reloadMultiplier": 0.8
 		},
 		"scrap": {
 			"type": "BasicBulletType",
@@ -53,15 +42,9 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 0.5,
-			"fragBullets": 7,
+			"ammoMultiplier": 1.5,
 			"pierce": true,
-			"pierceCap": 3,
-			"fragCone": 15,
-			"fragBullet": {
-				"fragVelocityMin": 1,
-				"damage": 5
-			}
+			"pierceCap": 3
 		},
 		"plastanium": {
 			"type": "BasicBulletType",
@@ -71,9 +54,7 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"fragBullets": 15,
-			"pierce": true,
-			"pierceCap": 3,
+			"fragBullets": 5,
 			"fragCone": 15,
 			"fragBullet": {
 				"fragVelocityMin": 1,
@@ -88,14 +69,8 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"fragBullets": 5,
 			"pierce": true,
-			"pierceCap": 15,
-			"fragCone": 15,
-			"fragBullet": {
-				"fragVelocityMin": 1,
-				"damage": 10
-			}
+			"pierceCap": 15
 	    },
 		"surge-alloy": {
 			"type": "BasicBulletType",
@@ -105,18 +80,10 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"fragBullets": 3,
 			"pierce": true,
-			"pierceCap": 10,
+			"pierceCap": 5,
 			"lightining" : 2,
-            "lightningLength" : 10,
-			"fragCone": 15,
-			"fragBullet": {
-				"fragVelocityMin": 1,
-				"damage": 15,
-				"lightining" : 1,
-            	"lightningLength" : 5
-			}
+            "lightningLength" : 10
 		},
 		"toughitinum": {
 			"type": "BasicBulletType",
@@ -126,16 +93,9 @@
 			"height": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"fragBullets": 3,
 			"pierce": true,
-			"pierceCap": 5,
-			"fragCone": 15,
-			"fragBullet": {
-				"fragVelocityMin": 1,
-				"damage": 15
-			}
-		}
-	    },
+			"pierceCap": 5
+		}},
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 70 },
 		{ "item": "silicon", "amount": 130 },
