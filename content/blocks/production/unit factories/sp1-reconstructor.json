@@ -1,7 +1,6 @@
 {
 	"type": "Reconstructor",
-	"itemCapacity": 100,
-    "constructTime": 950,
+    "constructTime": 1200,
     "size": 3,
 	"consumes": {
 		"power": 3,
@@ -13,8 +12,9 @@
 	}
     },
     "upgrades":[
-    	["patrol-drone-mk1", "patrol-drone-mk2"],//currently serves as a placeholder because reasons
-    	["dagger", "missile-mech-1"]
+    	//these currently serve as a placeholder because reasons
+    	["patrol-drone-mk1", "patrol-drone-mk2"],
+    	["medic-mk1", "medic-mk2"]
     ],
     "requirements": [
 		{"item": "lead", "amount": 250},
@@ -23,7 +23,5 @@
 		{"item": "scalar", "amount": 60}
 	],
 	"category": "units",
-	"research": "ground-factory",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "ground-factory"
 }

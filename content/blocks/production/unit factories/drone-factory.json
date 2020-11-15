@@ -1,0 +1,41 @@
+{
+	"type": "UnitFactory",
+    "size": 3,
+	"consumes": {"power": 2},
+    "plans":[{
+    	"unit": "mono",
+    	"requirements": [
+		{"item": "silicon", "amount": 30},
+		{"item": "lead", "amount": 15}],
+	"time": 2100
+	},{
+		"unit": "medic-mk1",
+		"requirements": [
+		{"item": "silicon", "amount": 50},
+		{"item": "lead", "amount": 35},
+		{"item": "scalar", "amount": 25}
+	],
+	"time": 1700
+	},{
+		"unit": "patrol-drone-mk1",
+		"requirements": [
+		{"item": "silicon", "amount": 75},
+		{"item": "lead", "amount": 45},
+		{"item": "titanium", "amount": 35}],
+	"time": 2500
+	},{
+		"unit": "assassin-drone-mk1",
+		"requirements": [
+		{"item": "silicon", "amount": 55},
+		{"item": "lead", "amount": 50},
+		{"item": "matrix", "amount": 15}],
+	"time": 2500
+	}],
+    "requirements": [
+		{"item": "copper", "amount": 90},
+		{"item": "lead", "amount": 50},
+		{"item": "silicon", "amount": 50}
+	],
+	"category": "units",
+	"research": "air-factory"
+}

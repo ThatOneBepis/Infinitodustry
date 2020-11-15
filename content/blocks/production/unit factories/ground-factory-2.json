@@ -1,0 +1,36 @@
+{
+	"type": "UnitFactory",
+    "size": 3,
+	"consumes": {"power": 2},
+    "plans":[{
+    	"unit": "missile-mech-1",
+    	"requirements": [
+		{"item": "silicon", "amount": 12},
+		{"item": "plastanium", "amount": 8}],
+	"time": 1000
+	},{
+		"unit": "smg-mech-1",
+		"requirements": [
+		{"item": "silicon", "amount": 50},
+		{"item": "lead", "amount": 35},
+		{"item": "graphite", "amount": 25}
+	],
+	"time": 1500
+	},{
+		"unit": "mitosis",
+		"requirements": [
+		{"item": "silicon", "amount": 50},
+		{"item": "vector", "amount": 35},
+		{"item": "titanium", "amount": 45}
+	],
+	"time": 1500
+	}],
+    "requirements": [
+		{"item": "copper", "amount": 110},
+		{"item": "lead", "amount": 70},
+		{"item": "silicon", "amount": 75},
+		{"item": "titanium", "amount": 50}
+	],
+	"category": "units",
+	"research": "ground-factory"
+}

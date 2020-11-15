@@ -1,20 +1,23 @@
 {
 	"type": "Reconstructor",
-    "constructTime": 1650,
+    "constructTime": 2250,
     "size": 5,
 	"consumes": {
 		"power": 5,
 		"items": {
 		"items": [
-            {"item": "silicon" , "amount": 135.0},
-            {"item": "scalar" , "amount": 105.0}
-            {"item": "matrix" , "amount": 65.0}
+            {"item": "silicon" , "amount": 160.0},
+            {"item": "tau-plate" , "amount": 125.0}
+            {"item": "toughitinum" , "amount": 65.0}
         ],
 	}
     },
     "upgrades":[
-    	["patrol-drone-mk1", "patrol-drone-mk3"],
-    	["missile-mech-1", "missile-mech-2"]
+    	["patrol-drone-mk2", "patrol-drone-mk3"],
+    	["missile-mech-1", "missile-mech-2"],
+    	["assassin-drone-mk1", "assassin-drone-mk2"],
+		["medic-mk2", "medic-mk3"],
+    	["smg-mech-1", "smg-mech-2"]
     ],
     "requirements": [
 		{"item": "lead", "amount": 1400},
@@ -22,10 +25,8 @@
 		{"item": "titanium", "amount": 400},
 		{"item": "metaglass", "amount": 200},
 		{"item": "scalar", "amount": 330},
-		{"item": "matrix", "amount": 215}
+		{"item": "vector", "amount": 215}
 	],
 	"category": "units",
-	"research": "sp1-reconstructor",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "sp1-reconstructor"
 }

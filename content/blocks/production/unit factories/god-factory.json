@@ -1,0 +1,75 @@
+{
+	"type": "UnitFactory",
+    "size": 7,
+	"consumes": {"power": 25},
+    "plans":[
+    	/*{
+    	"unit": "divinity",
+    	"requirements": [
+    			{"item": "silicon", "amount": 1000},
+    			{"item": "test", "amount": 5},
+   				{"item": "surge-alloy", "amount": 150}
+   			],
+		"time": 7500000
+	},{
+		"unit": "trueWrath",
+		"requirements": [{"item": "copper", "amount": 1}],
+		"time": 7500000
+	},*/{
+		"unit": "daggergod",
+		"requirements": [
+				{"item": "lead", "amount": 1000}
+				{"item": "test", "amount": 5},
+   				{"item": "surge-alloy", "amount": 150}
+   			],
+		"time": 7500000
+	},/*{
+		"unit": "wide-eclipse",
+		"requirements": [{"item": "phase-fabric", "amount": 1000}],
+		"time": 7500000
+	},{
+		"unit": "toxomega",
+		"requirements": [{"item": "scrap", "amount": 1000}],
+		"time": 7500000
+	},*/{
+		"unit": "octmega",
+		"requirements": [
+				{"item": "titanium", "amount": 1000}
+				{"item": "test", "amount": 5},
+   				{"item": "surge-alloy", "amount": 150}
+   			],
+	"time": 7500000
+	}/*,{
+		"unit": "supreme-ant",
+		"requirements": [{"item": "pyratite", "amount": 100}],
+		"time": 10000
+	},
+	{
+		"unit": "supreme-ark",
+		"requirements": [{"item": "spore-pod", "amount": 100}],
+		"time": 10000
+	},
+	{
+		"unit": "supreme-spt",
+		"requirements": [{"item": "toughitinum", "amount": 100}],
+		"time": 10000
+	},
+	{
+		"unit": "supreme-qua",
+		"requirements": [{"item": "matrix", "amount": 100}],
+		"time": 10000
+	},
+	{
+		"unit": "supreme-sei",
+		"requirements": [{"item": "blast-compound", "amount": 100}],
+		"time": 10000
+	}*/],
+    "requirements": [
+		{"item": "lead", "amount": 5000000},
+		{"item": "silicon", "amount": 4500000},
+		{"item": "tensor", "amount": 2000000},
+		{"item": "surge-alloy", "amount": 1000000}
+	],
+	"category": "units",
+	"buildVisibility": "sandboxOnly"
+}
