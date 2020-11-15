@@ -1,0 +1,26 @@
+{
+    "drag": 0.05,
+    "speed": 0.5,
+    "health": 95,
+    "rotateSpeed": 2,
+    "itemCapacity": 5,
+    "research": "ground-factory-2",
+    "weapons": [{
+          "x": 0.5,
+          "y": -1,
+          "name": "missile-pods-1",
+          "range": 150,
+          "reload": 40,
+          "alternate": true,
+          "shootSound": "missile",
+          "xRand": 5,
+          "bullet": {
+            "type": "MissileBulletType",
+            "homingPower": 0.05,
+            "width": 5,
+            "height": 7,
+            "speed": 3.5,
+            "splashDamage": 45,
+            "splashDamageRadius": 35,
+            "drag": -0.05
+          }}]}

@@ -1,0 +1,34 @@
+{
+    "type": "MechUnit",
+    "drag": 0.1,
+    "speed": 0.65,
+    "armor": 4,
+    "health": 575,
+    "rotateSpeed": 4,
+    "itemCapacity": 25,
+    "canBoost": true,
+    "boostMultiplier": 1.2,
+    //"research": "smg-mech-mk1",
+    "weapons": [
+       {
+          "x": 4,
+          "y": 10,
+          "name": "smg-2",
+          "reload": 80,
+          "shots": 15,
+          "recoil": 2,
+          "shotDelay": 15,
+          "mirror": false,
+          "top": false,
+          "shootSound": "shootBig",
+          "ejectEffect": "casing1",
+          "bullet": {
+            "damage": 18,
+            "width": 7,
+            "height": 9,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke"
+          }
+        }
+      ]
+}

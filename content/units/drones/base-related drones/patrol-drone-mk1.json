@@ -1,0 +1,31 @@
+{
+	"type": "UnitEntity",
+	"health": 450,
+	"flying": true,
+	"targetAir": true,
+	"speed": 1,
+	"mass": 45,
+	"rotatespeed": 5,
+	"drag": 0.05,
+	"research": "drone-factory",
+	//"ammoType": "powerLow",
+	"weapons": [
+       {
+		"name": "lancer",
+		"x": 0,
+		"y": 0,
+		"top": false,
+		"recoil": 3,
+		"alternate": true,
+		"reload": 100,
+		"shootSound": "laser",
+		"bullet": {
+		"type": "LaserBulletType",
+		"hitEffect": "hitLancer",
+		"damage": 75,
+		"sideAngle": 45,
+		"sideWidth": 1,
+		"sideLength": 10,
+		"colidesAir": true
+	}}]
+}

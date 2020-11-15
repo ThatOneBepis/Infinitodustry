@@ -1,0 +1,35 @@
+{
+    "drag": 0.4,
+    "speed": 0.9,
+    "armor": 1,
+    "health": 200,
+    "rotateSpeed": 3,
+    "itemCapacity": 20,
+    "sway": 0.2,
+    "allowLegStep": true,
+    "visualElevation": 0.2,
+    "legCount": 6,
+    "legLength": 5,
+    "legTrns": 0.6,
+    "legMoveSpace": 1.5,
+    "hovering": true,
+    "weapons": [
+       {
+           "x": 0,
+           "y": -4,
+           "name": "mini-gauss",
+           "reload": 100,
+           "shootSound": "shootBig",
+           "ejectEffect": "casing2",
+           "mirror": false,
+           "bullet": {
+          		"splashDamage": 75,
+          		"splashDamageRadius": 25,
+          		"lifetime": 80,
+          		"speed": 2,
+          		"type": "MissileBulletType"
+          		}
+        }
+      ]
+      
+}

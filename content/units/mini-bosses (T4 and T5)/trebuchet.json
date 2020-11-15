@@ -2,17 +2,17 @@
     //I cant find other unit types
     "type": "MechUnit",
     "drag": 0.4,
-    "speed": 0.14,
+    "speed": 0.4,
     "armor": 10,
     "health": 9000,
-    "rotateSpeed": 0.06,
+    "rotateSpeed": 0.9,
     "itemCapacity": 65,
     //spider vibe
     "sway": 0.8,
     "allowLegStep": true,
     "visualElevation": 0.5,
     "legCount": 4,
-    "legLength": 25,
+    "legLength": 45,
     "legTrns": 0.6,
     "legMoveSpace": 1.5,
     "hovering": true,
@@ -29,7 +29,7 @@
            "shotDelay": 3,
            "alternate": true,
            "shootSound": "shootBig",
-           "ejectEffect": "shellEjectMedium",
+           "ejectEffect": "casing2",
            "bullet": "standardThoriumBig"
         },
         {
@@ -42,7 +42,7 @@
            "spacing": 4,
            "shotDelay": 5,
            "alternate": true,
-           "ejectEffect": "shellEjectMedium",
+           "ejectEffect": "casing1",
            "shootSound": "shootBig",
            "bullet": {
             "splashDamage": 50,

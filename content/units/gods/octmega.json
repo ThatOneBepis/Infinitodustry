@@ -1,0 +1,12 @@
+{
+ "health": 13824000000000, //~14 trillion health lmao
+ "armor": 500, //it should be much larger
+ "ammoCapacity": 2197000000, //oh no
+ "ammoResupplyAmount": 8000,
+ "ammoResupplyRange": 1000000,
+ "visualElevation": 5,
+ "buildSpeed": 64,
+ "flying": true,
+ "drawShields": false,
+ "commandLimit": 0
+}
