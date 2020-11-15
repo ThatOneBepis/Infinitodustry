@@ -2,11 +2,11 @@
 	"type": "Separator",
 	"itemCapacity": 15,
 	"results": [
-            {"item": "copper", "amount": 85},
-            {"item": "lead", "amount": 85},
-            {"item": "titanium", "amount": 65},
-            {"item": "coal", "amount": 75},
-            {"item": "scrap", "amount": 75},
+            {"item": "copper", "amount": 120},
+            {"item": "lead", "amount": 120},
+            {"item": "titanium", "amount": 85},
+            {"item": "coal", "amount": 105},
+            {"item": "sand", "amount": 150},
             {"item": "thorium", "amount": 50}
         ],
 	"size": 2,
