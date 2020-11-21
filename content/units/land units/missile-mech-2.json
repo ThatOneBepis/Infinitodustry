@@ -1,5 +1,7 @@
 {
+	"type": "MechUnit",
     "drag": 0.05,
+    "hitSize": 16,
     "speed": 0.3,
     "health": 350,
     "rotateSpeed": 0.7,
