@@ -1,4 +1,5 @@
 {
+	"type": "MechUnit",
     "drag": 0.05,
     "speed": 0.1,
     "health": 4500,
