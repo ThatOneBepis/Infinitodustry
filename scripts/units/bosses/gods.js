@@ -10,7 +10,7 @@ daggerGod.abilities.add(UnitSpawnAbility(UnitTypes.dagger, 240, -30, 30));
 
 //Octmega, the prophecy platform
 const octMega = extendContent(UnitType, "octmega", {});
-octMega.constructor = () => extend(BuilderPayloadUnit, {});
+octMega.constructor = () => extend(PayloadUnit, {});
 octMega.abilities.add(UnitSpawnAbility(UnitTypes.nova, 60, 0, 0));
 octMega.abilities.add(UnitSpawnAbility(UnitTypes.nova, 60, 20, 20));
 octMega.abilities.add(UnitSpawnAbility(UnitTypes.nova, 60, -20, 20));

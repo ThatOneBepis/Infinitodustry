@@ -1,9 +1,11 @@
 //Messanger and Messy drones
 
 const mess = extendContent(UnitType, "a-mess", {});
-mess.constructor = () => extend(BuilderPayloadUnit, {});
+mess.constructor = () => extend(PayloadUnit, {});
 const nMess = extendContent(UnitType, "a-lesser-mess", {});
-nMess.constructor = () => extend(BuilderUnit, {/*it should have flare's ai*/});
+nMess.constructor = function(){
+  return extend(UnitEntity, {});
+};
 
 mess.payloadCapacity = (5.3 * 5.3) * 20;
 mess.abilities.add(UnitSpawnAbility(nMess, 200, 14, 0));
@@ -18,7 +20,7 @@ mess.abilities.add(UnitSpawnAbility(nMess, 200, -15, -30));
 //Sigma (name up to debate)
 
 const mitosis = extendContent(UnitType, "mitosis", {});
-mitosis.constructor = () => extend(BuilderLegsUnit, {});
+mitosis.constructor = () => extend(UnitEntity, {});
 //const selfSpawn = new (UnitSpawnAbility(mitosis, 2500, 0, 0));
 mitosis.abilities.add(UnitSpawnAbility(mitosis, 2500, 0, 0))/*selfSpawn*/;
 
@@ -32,7 +34,7 @@ const CoreUnit = extend(BuilderPayloadUnit, {
 	//should be summoned via editor
 })
 //or its this
-coreCycler.constructor = () => extend(BuilderPayloadUnit, {
+coreCycler.constructor = () => extend(PayloadUnit, {
 	//stuff that makes it a mobile core
 	//cause a gameover event if destroyed, and no cores/mobile cores are present
 	//should be summoned via editor
