@@ -12,7 +12,7 @@
     "legLength": 5,
     "legTrns": 0.6,
     "legMoveSpace": 1.5,
-    "hovering": true,
+    //"hovering": true,
     "weapons": [
        {
            "x": 0,
