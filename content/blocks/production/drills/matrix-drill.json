@@ -1,6 +1,5 @@
 {
 	"name": "MTRX-3",
-	"type": "Drill",
 	"size": 2,
 	"tier": 6,
 	"drillTime": 175,
@@ -9,7 +8,7 @@
 		"power": 1.1,
 		"liquid": {
 			"liquid": "water", 
-			"amount": 0.1,
+			"amount": 0.09,
 			"booster": true,
 			"optional": true
 		}
