@@ -1,6 +1,7 @@
 //region mechanics
 require("mechanics/xp"); //courtersy of sk7725/xp-lib
 require("mechanics/multi-lib"); //courtersy of younggam/multi-lib
+require("mechanics/beams"); //courtersy of MEEPofFaith/missing-category-units
 //endregion
 //region campaign
 require("campaign/research");
