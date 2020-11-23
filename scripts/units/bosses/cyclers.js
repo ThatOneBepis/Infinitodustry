@@ -20,7 +20,7 @@ mess.abilities.add(UnitSpawnAbility(nMess, 200, -15, -30));
 //Sigma (name up to debate)
 
 const mitosis = extendContent(UnitType, "mitosis", {});
-mitosis.constructor = () => extend(UnitEntity, {});
+mitosis.constructor = () => extend(LegsUnit, {});
 //const selfSpawn = new (UnitSpawnAbility(mitosis, 2500, 0, 0));
 mitosis.abilities.add(UnitSpawnAbility(mitosis, 2500, 0, 0))/*selfSpawn*/;
 
@@ -28,7 +28,7 @@ mitosis.abilities.add(UnitSpawnAbility(mitosis, 2500, 0, 0))/*selfSpawn*/;
 
 /*const coreCycler = extendContent(UnitType, "delivery-time", {});
 //unsure if this is how its done
-const CoreUnit = extend(BuilderPayloadUnit, {
+const CoreUnit = extend(PayloadUnit, {
 	//stuff that makes it a mobile core
 	//cause a gameover event if destroyed, and no cores/mobile cores are present
 	//should be summoned via editor
