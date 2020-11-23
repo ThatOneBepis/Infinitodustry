@@ -7,6 +7,7 @@ require("campaign/research");
 //require("campaign/planets/ainamelzung");
 //endregion
 //region units
+require("units/air/patrol-drones"); //portion is made using beams.js
 require("units/bosses/gods");
 require("units/bosses/cyclers");
 //endregion
