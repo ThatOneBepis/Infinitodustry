@@ -1,0 +1,46 @@
+{
+    "type": "mech",
+    "drag": 0.1,
+    "speed": 0.25,
+    "armor": 2,
+    "health": 750,
+    "rotateSpeed": 2,
+    "itemCapacity": 25,
+    //"research": "smg-mech-mk1",
+    "weapons": [
+       {
+          "x": 8,
+          "y": 10,
+          "name": "smg-3",
+          "reload": 260,
+          "shots": 50,
+          "shotDelay": 15,
+          "mirror": false,
+          "top": false,
+          "shootSound": "shootBig",
+          "ejectEffect": "casing1",
+          "bullet": {
+            "damage": 35,
+            "width": 7,
+            "height": 9,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke"
+          }
+        },
+        {
+          "name": "molotov-launcher",
+          "x": 2,
+          "y": -1,
+          "reload": 200,
+          "shootSound": "shootBig",
+          "bullet": {
+            "status": "burning",
+            "colides": false,
+            "colidesTiles": false,
+            "lifetime": 65,
+            "splashDamage": 70,
+            "splashDamageRadius": 45
+          }
+        }
+      ]
+}

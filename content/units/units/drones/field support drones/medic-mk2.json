@@ -1,0 +1,15 @@
+{
+	"type": "flying",
+	"health": 350,
+	"update": true,
+	"flying": true,
+	"speed": 1.35,
+	"mass": 35,
+	"drag": 0.5,
+	"rotateSpeed": 1.5,
+	"engineSize": 1.5,
+	"engineOffset": 3,
+	"canHeal": true,
+	"singleTarget": true,
+	"research": "medic-mk1"
+}

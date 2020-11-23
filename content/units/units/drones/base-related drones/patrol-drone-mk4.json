@@ -1,0 +1,14 @@
+{
+	"type": "UnitEntity",
+	"health": 15000,
+	"flying": true,
+	"targetAir": true,
+	"speed": 0.5,
+	"hitSize": 40,
+	"rotatespeed": 4,
+	"buildPower": 0.7,
+	"itemCapacity": 65,
+	"drag": 0.07,
+	"rotateWeapon": true,
+	"research": "patrol-drone-mk3"
+}

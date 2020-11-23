@@ -1,0 +1,57 @@
+{
+    "type": "legs",
+    "drag": 0.4,
+    "speed": 0.4,
+    "armor": 10,
+    "health": 9000,
+    "rotateSpeed": 0.9,
+    "itemCapacity": 65,
+    //spider vibe
+    "sway": 0.8,
+    "allowLegStep": true,
+    "visualElevation": 0.5,
+    "legCount": 4,
+    "legLength": 45,
+    "legTrns": 0.6,
+    "legMoveSpace": 1.5,
+    "hovering": true,
+    //multi weapon, "x" and "y" strings are a subject of change
+    "weapons": [
+       {
+           "x": 22,
+           "y": 0,
+           "name": "eradication",
+           "range": 400,
+           "reload": 30,
+           "shots": 4,
+           "inaccuracy": 3,
+           "shotDelay": 3,
+           "alternate": true,
+           "shootSound": "shootBig",
+           "ejectEffect": "casing2",
+           "bullet": "standardThoriumBig"
+        },
+        {
+           "x": 6,
+           "y": -8,
+           "name": "chaos-batteries",
+           "reload": 70,
+           "inaccuracy": 10,
+           "shots": 5,
+           "spacing": 4,
+           "shotDelay": 5,
+           "alternate": true,
+           "ejectEffect": "casing1",
+           "shootSound": "shootBig",
+           "bullet": {
+            "splashDamage": 50,
+            "splashDamageRadius": 40,
+            "lightning": 2,
+            "lightningLength": 7,
+            "collidesGround": true,
+            "explodeRange": 20
+           }
+         }
+      ]
+      
+}

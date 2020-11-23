@@ -1,0 +1,37 @@
+{
+	"type": "flying",
+	"targetable": false,
+	"rotatespeed": 2,
+	"health": 135,
+	"hitSize": 8,
+	"flying": true,
+	"research": "drone-factory",
+	//"ammoType": "power",
+	"mass": 5,
+	"drag": 0.5,
+	"speed": 1.45,
+	"armor": 2,
+	"commandLimit": 4,
+	"crashDamageMultiplier": 0.4,
+	"weapons":
+	[{
+		"name": "clear",
+		"reload": 120,
+		"roundRobin": true,
+		"shootSound": "none",
+		"x": 0,
+		"y": -2,
+		"bullet":
+		{
+			"frontColor": "791515",
+			"backColor": "791515",
+			"damage": 150,
+			"lifetime": 30,
+			"speed": 5
+	}}/*,{
+		"rotate": true,
+		"name": "clear",
+		"shootSound": "none",
+		"bullet": {"instantDissapear": true}
+	}*/]
+}

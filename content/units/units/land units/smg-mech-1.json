@@ -1,0 +1,32 @@
+{
+    "type": "mech",
+    "drag": 0.1,
+    "speed": 0.5,
+    "armor": 2,
+    "health": 400,
+    "itemCapacity": 25,
+    "clipSize": 7,
+    "research": "dagger",
+    "weapons": [
+       {
+       	  "y": 2,
+          "shootY": 2,
+          "shootX": 5,
+          "name": "smg-1",
+          "reload": 65,
+          /*"shots": 7,*/
+          "shotDelay": 10,
+          "mirror": false,
+          "top": false,
+          "shootSound": "shootBig",
+          "ejectEffect": "casing1",
+          "bullet": {
+            "damage": 18,
+            "width": 7,
+            "height": 9,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke"
+          }
+        }
+      ]
+}

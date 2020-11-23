@@ -1,0 +1,24 @@
+{
+	"speed": 3,
+	"accel": 0.2,
+	"health": 105,
+	"flying": true,
+	"mass": 5,
+	"drag": 0.01,
+	"hitSize": 6,
+	"buildPower": 0.5,
+	"omniDirectional": false,
+	"engineOffset": 5.5,
+	"commandLimit": 5,
+	"weapons":
+	[{
+		"name": "clear",
+		"rotate": false,
+		"reload": 20,
+		"ejectEffect": "casing1",
+		"shootSound": "bang",
+		"x": 0,
+		"y": 2,
+		"bullet": "standardDense"
+	}]
+}
