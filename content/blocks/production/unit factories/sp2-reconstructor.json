@@ -21,9 +21,9 @@
     ],
     "requirements": [
 		{"item": "lead", "amount": 1400},
-		{"item": "silicon", "amount": 450},
-		{"item": "titanium", "amount": 400},
-		{"item": "metaglass", "amount": 200},
+		{"item": "silicon", "amount": 600},
+		{"item": "titanium", "amount": 500},
+		{"item": "metaglass", "amount": 350},
 		{"item": "scalar", "amount": 330},
 		{"item": "vector", "amount": 215}
 	],

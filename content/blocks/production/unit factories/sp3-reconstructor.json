@@ -8,9 +8,9 @@
 		"items": [
             {"item": "silicon" , "amount": 650.0},
             {"item": "thorium" , "amount": 500.0},
-            {"item": "blast-fabric" , "amount": 475.0}
-            {"item": "matrix" , "amount": 350.0},
-            {"item": "visionary-glass" , "amount": 450.0}
+            {"item": "blast-fabric" , "amount": 475.0},
+            {"item": "visionary-glass" , "amount": 450.0},
+            {"item": "matrix" , "amount": 350.0}
         ],
 	},
 		"liquid": {
@@ -20,19 +20,19 @@
     },
     "upgrades":[
     	["fortress", "trebuchet"],
-    	["missile-mech-2", "missile-mech-3"]/*,
-		["medic-mk3", "semigod"],
+    	["missile-mech-2", "missile-mech-3"],
+		["medic-mk3", "semigod"]/*,
 		["smg-mech-2", "lancerot"]
     	*/
     ],
     "requirements": [
-		{"item": "lead", "amount": 2100},
+		{"item": "lead", "amount": 2500},
 		{"item": "silicon", "amount": 850},
 		{"item": "titanium", "amount": 800},
-		{"item": "thorium", "amount": 500},
-		{"item": "scalar", "amount": 300},
-		{"item": "vector", "amount": 225},
-		{"item": "matrix", "amount": 150}
+		{"item": "thorium", "amount": 650},
+		{"item": "scalar", "amount": 400},
+		{"item": "vector", "amount": 325},
+		{"item": "matrix", "amount": 250}
 	],
 	"category": "units",
 	"research": "sp2-reconstructor"

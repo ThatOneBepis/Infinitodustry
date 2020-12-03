@@ -18,8 +18,8 @@
     ],
     "requirements": [
 		{"item": "lead", "amount": 250},
-		{"item": "silicon", "amount": 110},
 		{"item": "graphite", "amount": 120},
+		{"item": "silicon", "amount": 110},
 		{"item": "scalar", "amount": 60}
 	],
 	"category": "units",
