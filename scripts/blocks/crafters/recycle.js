@@ -125,4 +125,4 @@ recycle.craftEffect = Fx.pulverizeMedium;
 recycle.updateEffect = Fx.none;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-recycle.dumpToggle = false;
+recycle.dumpToggle = true;

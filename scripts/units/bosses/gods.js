@@ -37,12 +37,45 @@ toxomega.abilities.add(globalRegen);
 /*
 const omegarad = extendContent(UnitType, "trueWrath", {
 	//having a shockwawe upon spawn, that deals as much SplashDamage as combined DPS of entities capable of targeting it.
+	//reactive armor too because fuck everyone trying to slay this
+
+	//current basis
+	calcTeam = this.team;
+	DPSvalue = 0;
+	Groups.unit.each(u=>{
+  	if(u.team != calcTeam){
+    u.type.weapons.each(w=>{
+      DPSvalue+=(w.bullet.damage+w.bullet.splashDamage)/w.reload*60;
+    })
+  }
+});
+	calcTeam = this.team;
+	DPSvalue = 0;
+	Vars.world.tiles.eachTile(t => {
+  if(t.build != null){
+    if(t.build.ammo != null){
+      if(t.team() != calcTeam){
+        if(t.build.ammo.size > 0){
+          tbullet = t.build.ammo.get(0).type();
+          DPSvalue += (tbullet.damage + tbullet.splashDamage) * tbullet.reloadMultiplier / t.block().reloadTime * 60 / Math.pow(t.block().size, 2);
+        }
+      }
+    }
+  }
+});
 });
 omegarad.constructor = function(){
   return extend(MechUnit, {
-	//make the spawn ability trigger whenever an attack that can deal >20% of the unit max health is being performed
+	//make the spawn ability trigger again whenever an attack that can deal >20% of the unit max health is being performed, or with high enough dps
 	//also override any music with boss3.ogg
   });
 };
+const spawnShockWave = extend(Abilities.Ability, {
+ //spawn a bullet with damage that of calculated dps
+});
+const omegasplashung = extendContent(BasicBulletType, "lol", {});
+omegasplashung.splashDamage = shockWaveValue;
+omegasplashung.splashDamageRadius = Number.MAX_VALUE;//so nothing can escape it, damage propagation rates may apply
+omegasplashung.instantDisappear = true;
 omegarad.abilities.add(spawnShockWave);
 */

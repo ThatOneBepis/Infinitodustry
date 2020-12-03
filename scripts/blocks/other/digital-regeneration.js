@@ -1,46 +1,25 @@
-/*general scripts tied to infiar walls
+//general scripts tied to infiar walls
 const cooldown = 60;
+const fraction = 25;
 
-const MendHealSmall = newEffect(60, e => {
-    Draw.color(Color.valueOf("6dff5d"), Color.valueOf("47a73d"), e.fslope());
-    Draw.alpha(e.fout() * 0.5)
-    Lines.stroke(2 * e.fslope());
-    Draw.blend(Blending.additive);
-    Lines.square(e.x, e.y, 5, e.fout());
-    Draw.blend();
+const wallRegen = extendContent(Wall, "infiar-wall",{});
+
+wallRegen.buildType = () => extendContent(Wall.WallBuild, wallRegen, {
+	updateTile() {
+		if (this.damaged() & this.timer.get(0, cooldown)) {
+            this.heal(this.maxHealth / fraction);
+            Fx.healBlockFull.at(this.x, this.y, wallRegen.size, Pal.heal);
+        }
+	}
 });
 
+const wallRegenLarge = extendContent(Wall, "infiar-wall-large", {});
 
-const MendHealLarge = newEffect(60, e => {
-    Draw.color(Color.valueOf("6dff5d"), Color.valueOf("47a73d"), e.fout());
-    Draw.alpha(e.fout() * 0.5)
-    Lines.stroke(2 * e.fslope());
-    Draw.blend(Blending.additive);
-    Lines.square(e.x, e.y, 10, e.fout());
-    Draw.blend();
+wallRegenLarge.buildType = () => extendContent(Wall.WallBuild, wallRegenLarge, {
+	updateTile() {
+    	if (this.damaged() & this.timer.get(0, cooldown)) {
+            this.heal(this.maxHealth / fraction);
+            Fx.healBlockFull.at(this.x, this.y, wallRegenLarge.size, Pal.heal);
+        }
+    }
 });
-
-
-const WallRegen = extendContent(Block, "infiar-wall", {
-    update(tile){
-        //when health is lower than max health and cooldown reached
-        if ( (tile.entity.health() < tile.entity.maxHealth()) && (tile.entity.timer.get(0, cooldown)) ) {
-
-                   tile.entity.health += 10;
-                   Effects.effect(MendHealSmall, tile);
-                   
-            }
-      }
-});
-
-const WallRegenLarge = extendContent(Block, "infiar-wall-large", {
-    update(tile){
-         if ( (tile.entity.health() < tile.entity.maxHealth()) && (tile.entity.timer.get(0, cooldown)) ) {
-
-                   tile.entity.health += 40;
-                   Effects.effect(MendHealLarge, tile);
-                   
-            }
-      }
-});
-*/
