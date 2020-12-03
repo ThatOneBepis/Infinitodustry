@@ -7,7 +7,6 @@
     ]},
 	"temperature": 0.5,
     "viscosity": 0.5,
-    "effect": "melting",
     "color": "fffa8b",
     "statusDuration": 115
 }
