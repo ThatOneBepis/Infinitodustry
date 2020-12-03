@@ -1,6 +1,6 @@
 {
 	"type": "Wall",
-	"health": 500,
+	"health": 670,
 	"BlockGroup": "walls",
 	"size": 1,
 	"insulated": true,

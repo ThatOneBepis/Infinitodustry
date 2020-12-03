@@ -9,11 +9,11 @@
 	"shootSound": "corexplode",
 	"BlockGroup": "turrets",
 	"requirements": [
-		{"item": "copper", "amount": 1000},
+		{"item": "copper", "amount": 1200},
 	    {"item": "graphite", "amount": 850},
 		{"item": "tau-plate", "amount": 750},
 		{"item": "surge-alloy", "amount": 500},
-        {"item": "scalar", "amount":650}
+        {"item": "scalar", "amount": 650}
 	],
 	"category": "turret",
 	"research": "foreshadow"

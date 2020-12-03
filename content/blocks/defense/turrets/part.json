@@ -8,11 +8,11 @@
 	"bulletDamage": 200,
 	"powerUse": 15,
 	"ammoUseEffect": "shellEjectBig",
-	"rotatespeed": 10,
+	"rotateSpeed": 10,
 	"BlockGroup": "turrets",
 	"requirements": [
 		{ "item": "thorium", "amount": 100 },
-		{ "item": "titanium", "amount": 180 },
+		{ "item": "titanium", "amount": 220 },
 		{ "item": "phase-fabric", "amount": 125 },
         { "item": "matrix", "amount": 150 }
 	],

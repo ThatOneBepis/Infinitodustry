@@ -1,13 +1,11 @@
 {
-	"type": "ItemTurret",
 	"health": 1240,
 	"size": 3,
 	"reloadTime": 75,
 	"targetGround": true,
 	"range": 150,
-	"rotatespeed": 30,
+	"rotateSpeed": 4,
 	"shootSound": "shootBig",
-	"consumes": null,
 	"ammoTypes": {
 		"lemon": {
 			"damage": 100,
@@ -26,10 +24,10 @@
 		}
 	    },
 	"requirements": [
-		{ "item": "graphite", "amount": 135 },
-		{ "item": "metaglass", "amount": 95 },
-		{ "item": "silicon", "amount": 70 },
-		{ "item": "scalar", "amount": 50 }
+		{"item": "graphite", "amount": 135},
+		{"item": "metaglass", "amount": 95},
+		{"item": "silicon", "amount": 70},
+		{"item": "scalar", "amount": 50}
 	],
 	"category": "turret",
 	"research": "anti-air"

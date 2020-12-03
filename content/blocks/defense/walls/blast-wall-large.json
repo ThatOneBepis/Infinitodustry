@@ -1,6 +1,6 @@
 {
 	"type": "Wall",
-	"health": 2000,
+	"health": 2680,
 	"size": 2,
 	"insulated": true,
 	"deflect": true,

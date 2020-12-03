@@ -1,14 +1,14 @@
 {
-	"type": "ItemTurret",
 	"health": 860,
 	"size": 2,
 	"reloadTime": 15,
 	"targetGround": false,
 	"range": 200,
+	"shootX": 5,
 	"ammoUseEffect": "casing1",
 	"inaccuracy": 0,
 	"BlockGroup": "turrets",
-	"rotatespeed": 20,
+	"rotateSpeed": 3,
 	"ammoTypes": {
 		"copper": {
 			"type": "FlakBulletType",
