@@ -11,11 +11,11 @@
    				{"item": "surge-alloy", "amount": 150}
    			],
 		"time": 7500000
-	},{
-		"unit": "trueWrath",
-		"requirements": [{"item": "copper", "amount": 1}],
-		"time": 7500000
 	},*/{
+		"unit": "omegaradicator",
+		"requirements": [{"item": "ohnonium", "amount": 13}],
+		"time": 7500000
+	},{
 		"unit": "daggergod",
 		"requirements": [
 				{"item": "lead", "amount": 1000}
