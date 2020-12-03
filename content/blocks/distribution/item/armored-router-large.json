@@ -1,12 +1,12 @@
 {
 	"type": "router",
-	"health": 1800,
+	"health": 1400,
 	"size": 2,
 	"BlockGroup": "transportation",
 	"requirements": [
-		{ "item": "vector", "amount": 24 },
-		{ "item": "silicon", "amount": 48},
-		{ "item": "graphite", "amount": 48}
+		{/*"vector/6"*/"item": "vector", "amount": 6},
+		{/*"silicon/8"*/"item": "silicon", "amount": 8},
+		{/*"graphite/4"*/"item": "graphite", "amount": 4}
 	],
 	"category": "distribution",
 	"research": "armored-router"

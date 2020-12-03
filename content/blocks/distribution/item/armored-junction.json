@@ -1,13 +1,13 @@
 {
 	"type": "junction",
-	"health": 450,
+	"health": 350,
 	"speed": 26,
 	"capacity": 12,
 	"size": 1,
 	"BlockGroup": "transportation",
 	"requirements": [
-		{ "item": "vector", "amount": 6 },
-		{ "item": "silicon", "amount": 12}
+		{/*"vector/6"*/"item": "vector", "amount": 6},
+		{/*"silicon/8"*/"item": "graphite", "amount": 8}
 	],
 	"category": "distribution",
 	"research": "junction"

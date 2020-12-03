@@ -1,6 +1,6 @@
 {
 	"type": "BufferedItemBridge",
-	"health": 725,
+	"health": 450,
 	"size": 1,
 	"range": 6,
 	"speed": 70,
@@ -8,11 +8,11 @@
 	"bufferCapacity": 20,
 	"placeableLiquid": true,
 	"requirements": [
-		{ "item": "matrix", "amount": 6 },
-		{ "item": "titanium", "amount": 12},
-		{ "item": "graphite", "amount": 12},
-		{ "item": "metaglass", "amount": 15},
-		{ "item": "vector", "amount": 6}
+		{/*"matrix/6"*/"item": "matrix", "amount": 6},
+		{/*"titanium/8"*/"item": "titanium", "amount": 8},
+		{/*"graphite/6"*/"item": "graphite", "amount": 6},
+		{/*"metaglass/6"*/"item": "metaglass", "amount": 6},
+		{/*"vector/6"*/"item": "vector", "amount": 6}
 	],
 	"category": "distribution",
 	"research": "bridge-conveyor"

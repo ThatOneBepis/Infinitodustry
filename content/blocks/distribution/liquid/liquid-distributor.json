@@ -1,5 +1,5 @@
 {
-	"type": "LiquidTank",
+	"type": "LiquidRouter",
 	"health": 100,
 	"size": 2,
 	"BlockGroup": "liquids",

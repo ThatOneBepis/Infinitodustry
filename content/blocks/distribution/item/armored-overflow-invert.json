@@ -1,14 +1,14 @@
 {
 	"type": "OverflowGate",
-	"health": 450,
+	"health": 300,
+	"invert": true,
 	"size": 1,
 	"BlockGroup": "transportation",
-	"invert": true,
-	"requirements": [
-		{ "item": "vector", "amount": 6 },
-		{ "item": "silicon", "amount": 12},
-		{ "item": "graphite", "amount": 12}
-	],
 	"category": "distribution",
-	"research": "underflow-gate"
+	"research": "armored-overflow",
+	"requirements": [
+		{/*"vector/6"*/"item": "vector", "amount": 6},
+		{/*"silicon/8"*/"item": "silicon", "amount": 8},
+		{/*"graphite/4"*/"item": "graphite", "amount": 4}
+	]
 }

@@ -14,7 +14,7 @@
 	"requirements": [
 		{ "item": "tau-plate", "amount": 35 },
 		{ "item": "lead", "amount": 35 },
-		{ "item": "thorium", "amount": 40 },
+		{ "item": "vector", "amount": 40 },
 		{ "item": "blast-fabric", "amount": 25 },
 		{ "item": "silicon", "amount": 50 }
 	],
