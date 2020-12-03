@@ -19,10 +19,10 @@
     }
     },
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
-		{ "item": "copper", "amount": 80 },
-		{ "item": "silicon", "amount": 15 },
-		{ "item": "graphite", "amount": 15 },
+		{"item": "copper", "amount": 80},
+		{"item": "lead", "amount": 50},
+		{"item": "silicon", "amount": 15},
+		{"item": "graphite", "amount": 15}
 	],
 	"category": "crafting",
 	"research": "visionary-glass"

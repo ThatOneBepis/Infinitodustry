@@ -19,10 +19,10 @@
 	}
     },
 	"requirements": [
-		{ "item": "titanium", "amount": 105 },
-		{ "item": "silicon", "amount": 95 },
-		{ "item": "scalar", "amount": 125 },
-		{ "item": "matrix", "amount": 45 }
+		{"item": "silicon", "amount": 495},
+		{"item": "titanium", "amount": 390},
+		{"item": "scalar", "amount": 325},
+		{"item": "matrix", "amount": 250}
 	],
 	"category": "crafting",
 	"research": "silicon-smelter"

@@ -18,10 +18,10 @@
     }
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 300 },
-		{ "item": "lead", "amount": 250 },
-		{ "item": "titanium", "amount": 120 },
-		{ "item": "visionary-glass", "amount": 60 },
+		{"item": "copper", "amount": 300},
+		{"item": "lead", "amount": 250},
+		{"item": "titanium", "amount": 120},
+		{"item": "visionary-glass", "amount": 60},
 	],
 	"category": "crafting",
 	"research": "stonks-smeltery-1",

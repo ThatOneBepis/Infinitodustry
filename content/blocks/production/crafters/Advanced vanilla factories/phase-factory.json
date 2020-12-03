@@ -18,10 +18,10 @@
 	}
     },
 	"requirements": [
-		{ "item": "thorium", "amount": 65 },
-		{ "item": "silicon", "amount": 125 },
-		{ "item": "vector", "amount": 135 },
-		{ "item": "lead", "amount": 25 }
+		{"item": "silicon", "amount": 250},
+		{"item": "lead", "amount": 185},
+		{"item": "thorium", "amount": 165},
+		{"item": "vector", "amount": 135}
 	],
 	"category": "crafting",
 	"research": "phase-weaver"

@@ -19,10 +19,10 @@
     }
     },
 	"requirements": [
-		{ "item": "scalar", "amount": 50 },
-		{ "item": "titanium", "amount": 80 },
-		{ "item": "silicon", "amount": 35 },
-		{ "item": "graphite", "amount": 60 },
+		{"item": "titanium", "amount": 80},
+		{"item": "graphite", "amount": 60},
+		{"item": "scalar", "amount": 50},
+		{"item": "silicon", "amount": 35}
 	],
 	"category": "crafting",
 	"research": "tau-plate"

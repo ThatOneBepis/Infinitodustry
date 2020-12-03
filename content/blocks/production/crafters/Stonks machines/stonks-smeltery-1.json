@@ -18,8 +18,8 @@
     }
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 160 },
-		{ "item": "lead", "amount": 100 }
+		{"item": "copper", "amount": 160},
+		{"item": "lead", "amount": 100}
 	],
 	"category": "crafting",
 	"research": "stonks",

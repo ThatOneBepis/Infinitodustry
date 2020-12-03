@@ -27,10 +27,10 @@
 	}
     },
 	"requirements": [
-		{ "item": "titanium", "amount": 65 },
-		{ "item": "copper", "amount": 135 },
-		{ "item": "thorium", "amount": 65 },
-		{ "item": "stone", "amount": 85}
+		{"item": "copper", "amount": 135},
+		{"item": "stone", "amount": 85},
+		{"item": "titanium", "amount": 65},
+		{"item": "thorium", "amount": 65}
 	],
 	"category": "crafting",
 	"research": "separator"

@@ -17,12 +17,12 @@
     }
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 610 },
-		{ "item": "plastanium", "amount": 230 },
-		{ "item": "toughitinum", "amount": 180 },
-		{ "item": "matrix", "amount": 190 },
-		{ "item": "silicon", "amount": 350 },
-		{ "item": "thorium", "amount": 300 }
+		{"item": "lead", "amount": 610},
+		{"item": "silicon", "amount": 450},
+		{"item": "thorium", "amount": 300},
+		{"item": "plastanium", "amount": 230},
+		{"item": "toughitinum", "amount": 210},
+		{"item": "matrix", "amount": 190}
 	],
 	"category": "crafting",
 	"research": "stonks-smeltery-4",

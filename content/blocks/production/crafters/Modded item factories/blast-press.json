@@ -18,10 +18,10 @@
     }
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 200 },
-		{ "item": "plastanium", "amount": 120 },
-		{ "item": "phase-fabric", "amount": 35 },
-		{ "item": "silicon", "amount": 120 },
+		{"item": "lead", "amount": 450},
+		{"item": "silicon", "amount": 260},
+		{"item": "plastanium", "amount": 250},
+		{"item": "phase-fabric", "amount": 95}
 	],
 	"category": "crafting",
 	"research": "blast-fabric"

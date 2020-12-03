@@ -16,13 +16,13 @@
 	}
     },
 	"requirements": [
-		{ "item": "tensor", "amount": 75 },
-		{ "item": "infiar", "amount": 135 },
-		{ "item": "matrix", "amount": 225 },
-		{ "item": "thorium", "amount": 95 },
-		{ "item": "surge-alloy", "amount": 80 },
-		{ "item": "phase-fabric", "amount": 80 },
-		{ "item": "blast-fabric", "amount": 80 }
+		{"item": "thorium", "amount": 395},
+		{"item": "matrix", "amount": 250},
+		{"item": "surge-alloy", "amount": 180},
+		{"item": "tensor", "amount": 175},
+		{"item": "phase-fabric", "amount": 150},
+		{"item": "blast-fabric", "amount": 140},
+		{"item": "infiar", "amount": 135}
 	],
 	"category": "power",
 	"research": "rtg-generator",

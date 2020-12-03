@@ -5,7 +5,7 @@
 	"BlockGroup": "drills",
 	"drillTime": 182,
 	"consumes": {
-		"power": 0.4,
+		"power": 0.8,
 		"liquid": {
 			"liquid": "water", 
 			"amount": 0.07,
@@ -14,12 +14,12 @@
 		}
 	},
 	"requirements": [
-		{ "item": "scalar", "amount": 45 },
-		{ "item": "stone", "amount": 25}
-		{ "item": "metaglass", "amount": 70 },
-		{ "item": "copper", "amount": 90 },
-		{ "item": "graphite", "amount": 65 },
-		{ "item": "silicon", "amount": 75 }
+		{"item": "copper", "amount": 90},
+		{"item": "metaglass", "amount": 70},
+		{"item": "silicon", "amount": 75},
+		{"item": "graphite", "amount": 65},
+		{"item": "scalar", "amount": 45},
+		{"item": "stone", "amount": 25}
 	],
 	"category": "production",
 	"research": "scalar"

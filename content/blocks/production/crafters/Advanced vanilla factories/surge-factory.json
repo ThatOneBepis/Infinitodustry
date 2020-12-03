@@ -20,11 +20,11 @@
 	}
     },
 	"requirements": [
-		{ "item": "titanium", "amount": 165 },
-		{ "item": "silicon", "amount": 85 },
-		{ "item": "infiar", "amount": 135 },
-		{ "item": "surge-alloy", "amount": 130 },
-		{ "item": "matrix", "amount": 45 }
+		{"item": "titanium", "amount": 465},
+		{"item": "silicon", "amount": 450},
+		{"item": "matrix", "amount": 245},
+		{"item": "surge-alloy", "amount": 230},
+		{"item": "infiar", "amount": 135}
 	],
 	"category": "crafting",
 	"research": "alloy-smelter"

@@ -19,10 +19,10 @@
     }
     },
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
-		{ "item": "copper", "amount": 80 },
-		{ "item": "silicon", "amount": 35 },
-		{ "item": "vector", "amount": 60 },
+		{"item": "copper", "amount": 80},
+		{"item": "lead", "amount": 50},
+		{"item": "vector", "amount": 60},
+		{"item": "silicon", "amount": 35}
 	],
 	"category": "crafting",
 	"research": "toughitinum"

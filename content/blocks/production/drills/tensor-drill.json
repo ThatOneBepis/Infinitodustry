@@ -8,7 +8,7 @@
 	"itemUseTime": 60,
 	"BlockGroup": "drills",
 	"consumes": {
-		"power": 2.0,
+		"power": 3.4,
 		"items": {
     "items": [
         {"item": "tau-plate", "amount": 1},
@@ -18,12 +18,12 @@
 }
     },
 	"requirements": [
-		{ "item": "matrix", "amount": 115 },
-		{ "item": "metaglass", "amount": 135 },
-		{ "item": "graphite", "amount": 100 },
-		{ "item": "lead", "amount": 175 },
-		{ "item": "thorium", "amount": 125 },
-		{ "item": "toughitinum", "amount": 60 }
+		{"item": "lead", "amount": 275},
+		{"item": "graphite", "amount": 205},
+		{"item": "metaglass", "amount": 160},
+		{"item": "thorium", "amount": 150},
+		{"item": "matrix", "amount": 115},
+		{"item": "toughitinum", "amount": 60}
 	],
 	"category": "production",
 	"research": "matrix"

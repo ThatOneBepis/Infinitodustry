@@ -46,12 +46,12 @@
         },
     },
 	"requirements": [
-		{ "item": "titanium", "amount": 265 },
-		{ "item": "graphite", "amount": 85 },
-		{ "item": "infiar", "amount": 125 },
-		{ "item": "surge-alloy", "amount": 80 },
-		{ "item": "thorium", "amount": 145 },
-		{ "item": "blast-fabric", "amount": 95}
+		{"item": "titanium", "amount": 750},
+		{"item": "graphite", "amount": 650},
+		{"item": "thorium", "amount": 500},
+		{"item": "infiar", "amount": 145},
+		{"item": "surge-alloy", "amount": 120},
+		{"item": "blast-fabric", "amount": 115}
 	],
 	"category": "crafting",
 	"research": "separator-MK2"

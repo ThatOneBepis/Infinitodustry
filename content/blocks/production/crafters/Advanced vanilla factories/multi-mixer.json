@@ -23,11 +23,11 @@
 		},
     },
 	"requirements": [
-		{ "item": "lead", "amount": 220 },
-		{ "item": "silicon", "amount": 230 },
-		{ "item": "titanium", "amount": 150 },
-		{ "item": "tau-plate", "amount": 225 },
-		{ "item": "surge-alloy", "amount": 120 }
+		{"item": "lead", "amount": 320},
+		{"item": "silicon", "amount": 280},
+		{"item": "titanium", "amount": 250},
+		{"item": "tau-plate", "amount": 225},
+		{"item": "surge-alloy", "amount": 120}
 	],
 	"category": "crafting",
 	"research": "blast-mixer"

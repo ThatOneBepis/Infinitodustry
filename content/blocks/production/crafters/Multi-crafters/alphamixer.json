@@ -1,13 +1,13 @@
 {
 	"requirements": [
-		{"item": "infiar", "amount": 480},
-		{"item": "tensor", "amount": 650},
-		{"item": "titanium", "amount": 265},
-		{"item": "toughitinum", "amount": 230},
-		{"item": "thorium", "amount": 400},
-		{"item": "blast-fabric", "amount": 150},
-		{"item": "phase-fabric", "amount": 185},
-		{"item": "surge-alloy", "amount": 120}
+		{"item": "titanium", "amount": 1250},
+		{"item": "thorium", "amount": 1000},
+		{"item": "toughitinum", "amount": 850},
+		{"item": "phase-fabric", "amount": 500},
+		{"item": "blast-fabric", "amount": 450},
+		{"item": "tensor", "amount": 700},
+		{"item": "infiar", "amount": 400}
+		{"item": "surge-alloy", "amount": 350}
 	],
 	"category": "crafting",
 	"research": "tau-plate"

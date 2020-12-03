@@ -8,8 +8,8 @@
 	"size": 2,
 	"pumpAmount": 0.05,
 	"requirements": [
-		{"item": "tau-plate", "amount": 45},
 		{"item": "stone", "amount": 95},
+		{"item": "tau-plate", "amount": 45},
 		{"item": "graphite", "amount": 35}
 	],
 	"category": "production",

@@ -18,11 +18,11 @@
     }
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 450 },
-		{ "item": "plastanium", "amount": 210 },
-		{ "item": "toughitinum", "amount": 150 },
-		{ "item": "vector", "amount": 200 },
-		{ "item": "silicon", "amount": 300 },
+		{"item": "lead", "amount": 450},
+		{"item": "silicon", "amount": 300},
+		{"item": "plastanium", "amount": 210},
+		{"item": "vector", "amount": 200},
+		{"item": "toughitinum", "amount": 150}
 	],
 	"category": "crafting",
 	"research": "stonks-smeltery-3",

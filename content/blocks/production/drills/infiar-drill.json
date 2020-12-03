@@ -6,7 +6,7 @@
 	"BlockGroup": "drills",
 	"hasLiquids": true,
 	"consumes": {
-		"power": 4.0,
+		"power": 5.0,
 		"liquid": {
 			"liquid": "slag", 
 			"amount": 0.1,
@@ -15,13 +15,13 @@
 		}
 	},
 	"requirements": [
-		{ "item": "tensor", "amount": 135 },
-		{ "item": "metaglass", "amount": 110 },
-		{ "item": "blast-fabric", "amount": 100 },
-		{ "item": "graphite", "amount": 95 },
-		{ "item": "surge-alloy", "amount": 175 },
-		{ "item": "thorium", "amount": 115 },
-		{ "item": "plastanium", "amount": 90 }
+		{"item": "graphite", "amount": 295},
+		{"item": "metaglass", "amount": 200},
+		{"item": "surge-alloy", "amount": 175},
+		{"item": "thorium", "amount": 175},
+		{"item": "tensor", "amount": 135},
+		{"item": "plastanium", "amount": 125},
+		{"item": "blast-fabric", "amount": 100}
 	],
 	"category": "production",
 	"research": "tensor"
