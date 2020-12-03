@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "consumes": {
+		"power": 20.0,
+        "items": {
+    "items": [
+        {"item": "phase-fabric", "amount": 1},
+        {"item": "toughitinum", "amount": 1}
+    ],
+    "booster": false,
+    "optional": false
+  },
+  "liquid": {
+      "liquid": "cryofluid", 
+      "amount": 0.8,
+      "booster": false,
+      "optional": false
+    }
+  },
+  "category": "effect",
+  "research": "mend-dome",
+  "range": 450,
+  "size": 4,
+  "reload": 350,
+  "healPercent": 75,
+  "useTime": 60,
+  "hasBoost": false,
+  "requirements": [
+  		{"item": "silicon", "amount": 1000},
+   		{"item": "thorium", "amount": 1000},
+		{"item": "vector", "amount": 950},
+		{"item": "surge-alloy", "amount": 600},
+		{"item": "toughitinum", "amount": 600},
+		{"item": "blast-fabric", "amount": 405},
+		{"item": "infiar", "amount": 350}
+	]
+}

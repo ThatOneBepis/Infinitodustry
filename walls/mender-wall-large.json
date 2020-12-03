@@ -1,0 +1,20 @@
+{
+	"type": "MendProjector",
+	"health": 2800,
+	"size": 2,
+	"range": 15,
+	"reload": 150,
+	"consumes": {"power": 0.4},
+	"buildCostMultiplier": 5,
+	"healPercent": 7,
+	"phaseRangeBoost": 0,
+	"phaseBoost": 0,
+	"BlockGroup": "walls",
+	"requirements": [
+		{ "item": "silicon", "amount": 24 },
+		{ "item": "surge-alloy", "amount": 12 },
+		{ "item": "toughitinum", "amount": 12 }
+	],
+	"category": "defense",
+	"research": "mender-wall"
+}

@@ -1,0 +1,12 @@
+{
+	"type": "PowerNode",
+	"laserRange": 0,
+	"health": 3320,
+	"BlockGroup": "walls",
+	"size": 2,
+	"requirements": [
+		{ "item": "toughitinum", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "power-wall"
+}

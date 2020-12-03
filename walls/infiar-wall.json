@@ -1,0 +1,14 @@
+{
+	"health": 900,
+	"size": 1,
+	"update": true,
+	"BlockGroup": "walls",
+	"solid": true,
+	"buildCostMultiplier": 5,
+	"absorbLasers": true,
+	"requirements": [
+		{ "item": "infiar", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "surge-wall"
+}
