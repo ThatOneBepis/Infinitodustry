@@ -25,13 +25,12 @@
   "hasBoost": false,
   "useTime": 60,
   "requirements": [
-    {"item": "thorium", "amount": 200},
-    {"item": "titanium", "amount": 350},
-    {"item": "plastanium", "amount": 250},
-    {"item": "surge-alloy", "amount": 400},
-    {"item": "infiar", "amount": 350},
-    {"item": "toughitinum", "amount": 200},
-    {"item": "silicon", "amount": 400},
-    {"item": "phase-fabric", "amount": 175}
+    {"item": "silicon", "amount": 900},
+   	{"item": "thorium", "amount": 1200},
+    {"item": "plastanium", "amount": 800},
+    {"item": "surge-alloy", "amount": 700},
+    {"item": "toughitinum", "amount": 500},
+    {"item": "phase-fabric", "amount": 500},
+    {"item": "infiar", "amount": 400}
   ]
 }

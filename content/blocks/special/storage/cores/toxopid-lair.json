@@ -13,7 +13,6 @@
 		{"item": "surge-alloy", "amount": 2500},
 		{"item": "matrix", "amount": 2700}
 	],
-	"category": "effect"/*,
-	"research": "tau-branch"
-	*/
+	"category": "effect",
+	"research": "toxopid"
 }
