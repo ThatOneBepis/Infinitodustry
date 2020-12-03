@@ -5,9 +5,11 @@
 	"flying": true,
 	"mass": 5,
 	"drag": 0.01,
+	"hitSize": 6,
 	"buildPower": 0.5,
 	"omniDirectional": false,
 	"engineOffset": 5.5,
+	"commandLimit": 5,
 	"weapons":
 	[{
 		"name": "clear",

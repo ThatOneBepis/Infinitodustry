@@ -1,5 +1,5 @@
 {
-	"type": "UnitEntity",
+	"type": "flying",
 	"health": 600,
 	"update": true,
 	"flying": true,

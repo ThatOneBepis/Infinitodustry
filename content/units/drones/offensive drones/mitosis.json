@@ -2,6 +2,7 @@
     "drag": 0.4,
     "speed": 0.9,
     "armor": 1,
+    "hitSize": 6,
     "health": 200,
     "rotateSpeed": 3,
     "itemCapacity": 20,
@@ -11,7 +12,7 @@
     "legCount": 6,
     "legLength": 5,
     "legTrns": 0.6,
-    "legMoveSpace": 1.5,
+    "legMoveSpace": 0.5,
     //"hovering": true,
     "weapons": [
        {

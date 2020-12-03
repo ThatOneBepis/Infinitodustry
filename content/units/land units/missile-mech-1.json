@@ -1,5 +1,5 @@
 {
-	"type": "MechUnit",
+	"type": "mech",
     "drag": 0.05,
     "speed": 0.5,
     "hitSize": 3,

@@ -1,6 +1,5 @@
 {
-    //I cant find other unit types
-    "type": "MechUnit",
+    "type": "legs",
     "drag": 0.4,
     "speed": 0.4,
     "armor": 10,

@@ -7,6 +7,7 @@
  "visualElevation": 5,
  "buildSpeed": 64,
  "flying": true,
+ "hitSize": 250,
  "drawShields": false,
  "commandLimit": 0
 }

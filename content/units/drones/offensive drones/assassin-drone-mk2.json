@@ -1,8 +1,9 @@
 {
-	"type": "UnitEntity",
+	"type": "flying",
 	"targetable": false,
-	"rotatespeed": 1,
+	"rotateSpeed": 1,
 	"health": 450,
+	"hitSize": 14,
 	"flying": true,
 	"research": "assassin-drone-mk1",
 	//"ammoType": "power",

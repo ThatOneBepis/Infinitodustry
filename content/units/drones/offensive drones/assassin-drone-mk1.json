@@ -1,8 +1,9 @@
 {
-	"type": "UnitEntity",
+	"type": "flying",
 	"targetable": false,
 	"rotatespeed": 2,
 	"health": 135,
+	"hitSize": 8,
 	"flying": true,
 	"research": "drone-factory",
 	//"ammoType": "power",

@@ -1,5 +1,5 @@
 {
-    "type": "MechUnit",
+    "type": "mech",
     "drag": 0.1,
     "speed": 0.25,
     "armor": 2,
