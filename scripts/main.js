@@ -1,6 +1,6 @@
 //region mechanics
 require("blocks/turrets/liquids"); //script liquids, their usage and their effects like a guardian
-require("mechanics/xp"); //courtersy of sk7725/xp-lib
+require("mechanics/xp"); //courtersy of sk7725/EXP-lib
 require("mechanics/multi-lib"); //courtersy of younggam/multi-lib
 require("mechanics/beams"); //courtersy of MEEPofFaith/missing-category-units
 require("blocks/other/digital-regeneration");
