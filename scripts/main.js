@@ -15,6 +15,7 @@ require("units/bosses/gods");
 require("units/bosses/cyclers");
 //endregion
 //region turrets
+require("blocks/turrets/railgunz");
 require("blocks/turrets/infinitode-towers"); //made using xp.js
 //endregion
 //region "made using multi-lib.js"

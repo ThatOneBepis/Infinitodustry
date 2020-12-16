@@ -1,4 +1,5 @@
 {
+	"type": "PowerTurret",
     "shootType": {
     	"type": "lightningBulletType",
         "damage": 35,
