@@ -1,5 +1,4 @@
 {
-	"type": "UnitEntity",
 	"health": 15000,
 	"flying": true,
 	"targetAir": true,
