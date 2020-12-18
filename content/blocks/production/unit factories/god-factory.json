@@ -13,7 +13,7 @@
 		"time": 7500000
 	},*/{
 		"unit": "omegaradicator",
-		"requirements": [{"item": "ohnonium", "amount": 13}],
+		"requirements": [{"item": "test", "amount": 13}],
 		"time": 7500000
 	},{
 		"unit": "daggergod",
