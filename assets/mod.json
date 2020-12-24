@@ -1,0 +1,10 @@
+{
+  "name": "Infinitodustry",
+  "author": "[cyan]Bepis[]",
+  "description": "Infinitodustry but in java.",
+  "version": "t2a",
+  "main": "infinitodustry.main",
+  "minGameVersion": "121",
+  "dependencies": [],
+  "hidden": false
+}
