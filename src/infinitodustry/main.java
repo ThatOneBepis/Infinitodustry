@@ -2,9 +2,9 @@ package infinitodustry;
 
 import arc.*;
 import arc.func.*;
-import arc.util.Log;
+import arc.util.*;
 import mindustry.*;
-import mindustry.ctype.*;
+import mindustry.content.*;
 import mindustry.game.EventType.*;
 import mindustry.mod.*;
 import mindustry.mod.Mods.*;
@@ -19,6 +19,15 @@ public class infinitodustry extends Mod{
     }
 
     @Override
-    public void loadContent(){
+    public void loadContent()}
+    new InfItems().load();
+    new InfLiquids().load();
+    new InfUnitTypes().load();
+    new InfBlocks().load();
+    new InfPlanets().load();
+    new InfWeapons().load();
+    new InfStatusEffects().load();
+    new InfSectors().load();
+    new InfTechTree().load();
     }
 }
