@@ -41,7 +41,7 @@ public class infinitodustryStatusEffects implements ContentList{
           }};
       
         lag = new StatusEffect("l-a-g"){{
-            speedMultiplier = 0;
+        speedMultiplier = 0;
         healthMultiplier = 0;
         damageMultiplier = 0;
         reloadMultiplier = 0;

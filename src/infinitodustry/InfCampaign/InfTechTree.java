@@ -23,7 +23,7 @@ public class InfinitodustryTechTree implements ContentList{
         TechNode parnode = TechTree.all.find(t -> t.content == parent);
         context = parnode;
         children.run();
-    }
+    };
 
     private static void node(UnlockableContent content, ItemStack[] requirements, Seq<Objective> objectives, Runnable children){
         TechNode node = new TechNode(context, content, requirements);
@@ -32,29 +32,29 @@ public class InfinitodustryTechTree implements ContentList{
         context = node;
         children.run();
         context = prev;
-    }
+    };
 
     private static void node(UnlockableContent content, ItemStack[] requirements, Runnable children){
         node(content, requirements, null, children);
-    }
+    };
 
     private static void node(UnlockableContent content, Seq<Objective> objectives, Runnable children){
         node(content, content.researchRequirements(), objectives, children);
-    }
+    };
 
     private static void node(UnlockableContent content, Runnable children){
         node(content, content.researchRequirements(), children);
-    }
+    };
 
     private static void node(UnlockableContent block){
         node(block, () -> {});
-    }
+    };
 
     private static void nodeProduce(UnlockableContent content, Seq<Objective> objectives, Runnable children){
         node(content, content.researchRequirements(), objectives.and(new Produce(content)), children);
-    }
+    };
 
     private static void nodeProduce(UnlockableContent content, Runnable children){
         nodeProduce(content, new Seq<>(), children);
-    }
+    };
 }
