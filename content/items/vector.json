@@ -8,5 +8,6 @@
 	]},
 	"cost": 1.5,
 	"hardness": 5,
+	"radioactivity": 1.1,
 	"color": "5d5de2"
 }

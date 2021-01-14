@@ -10,6 +10,7 @@
 	]},
 	"flammability": 0.9,
 	"explosiveness": 0.7,
+	"radioactivity": 0.6,
 	"cost": 1.7,
 	"hardness": 8,
 	"color": "ffb02f"

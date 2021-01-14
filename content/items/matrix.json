@@ -11,5 +11,6 @@
 	"hardness": 6,
 	"flammability": 1.15,
 	"explosiveness": 0.35,
+	"radioactivity": 0.1,
 	"color": "fb76ff"
 }

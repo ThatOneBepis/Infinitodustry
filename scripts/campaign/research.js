@@ -10,85 +10,88 @@ const tau = extendContent(Block, "tau-branch", {
 });
 
 const infiarDrill = extendContent(Drill, "infiar-drill",{
-    load: function(){
+    /*load(){
         this.region = Core.atlas.find("clear");
         this.rimRegion = Core.atlas.find("clear");
         this.topRegion = Core.atlas.find(this.name);
         this.rotatorRegion = Core.atlas.find(this.name + "-rotator");
     },
-    generateIcons: function(){
+    icons() {
+  return [ this.baseRegion, this.region ];
+},*/
+    generateIcons(){
     return [
         Core.atlas.find(this.name),
     ];},
 });
 
 const tensorDrill = extendContent(Drill, "tensor-drill",{
-    load: function(){
+    /*load(){
         this.region = Core.atlas.find("clear");
         this.rimRegion = Core.atlas.find("clear");
         this.topRegion = Core.atlas.find(this.name);
         this.rotatorRegion = Core.atlas.find(this.name + "-rotator");
     },
-    /*draw(tile){
+    draw(tile){
         Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy());
         Draw.rect(Core.atlas.find("infinitodustry-tensor-drill-rotator"), tile.drawx()-10, tile.drawy()-10, Time.time()*5*this.efficiency);
         Draw.rect(Core.atlas.find("infinitodustry-tensor-drill-rotator"), tile.drawx()+10, tile.drawy()-10, Time.time()*5*this.efficiency);
     },*/
-    generateIcons: function(){
+    generateIcons(){
     return [
         Core.atlas.find(this.name),
     ];},
 });
 
 const matrixDrill = extendContent(Drill, "matrix-drill",{
-    load: function(){
+    /*load(){
         this.region = Core.atlas.find("clear");
         this.rimRegion = Core.atlas.find("clear");
         this.topRegion = Core.atlas.find(this.name);
         this.rotatorRegion = Core.atlas.find(this.name + "-rotator");
     },
-    /*draw(tile){
+    draw(tile){
         Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy());
         Draw.rect(Core.atlas.find("infinitodustry-matrix-drill-rotator"), tile.drawx()-10, tile.drawy()-10, Time.time()*5*this.efficiency);
         Draw.rect(Core.atlas.find("infinitodustry-matrix-drill-rotator"), tile.drawx()+10, tile.drawy()-10, Time.time()*5*this.efficiency);
     },*/
-    generateIcons: function(){
+    generateIcons(){
     return [
         Core.atlas.find(this.name),
     ];},
 });
 
 const vectorDrill = extendContent(Drill, "vector-drill",{
-    load: function(){
+    /*load(){
         this.region = Core.atlas.find("clear");
         this.rimRegion = Core.atlas.find("clear");
         this.topRegion = Core.atlas.find(this.name);
         this.rotatorRegion = Core.atlas.find(this.name + "-rotator");
     },
-    /*draw(tile){
+    draw(tile){
         Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy());
         Draw.rect(Core.atlas.find("infinitodustry-vector-drill-rotator"), tile.drawx()-10, tile.drawy()-10, Time.time()*5*this.efficiency);
         Draw.rect(Core.atlas.find("infinitodustry-vector-drill-rotator"), tile.drawx()+10, tile.drawy()-10, Time.time()*5*this.efficiency);
     },*/
-    generateIcons: function(){
+    generateIcons(){
     return [
         Core.atlas.find(this.name),
     ];},
 });
 
 const scalarDrill = extendContent(Drill, "scalar-drill",{
-    load: function(){
+    /*load(){
         this.region = Core.atlas.find("clear");
         this.rimRegion = Core.atlas.find("clear");
         this.topRegion = Core.atlas.find(this.name);
         this.rotatorRegion = Core.atlas.find(this.name + "-rotator");
     },
-     /*draw(tile){
+    draw(tile){
         Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy());
         Draw.rect(Core.atlas.find("infinitodustry-scalar-drill-rotator"), tile.drawx()-10, tile.drawy()-10, Time.time()*5*this.efficiency);
         Draw.rect(Core.atlas.find("infinitodustry-scalar-drill-rotator"), tile.drawx()+10, tile.drawy()-10, Time.time()*5*this.efficiency);
     },*/
-    generateIcons: function(){
+    generateIcons(){
     return [
         Core.atlas.find(this.name),
     ];},
