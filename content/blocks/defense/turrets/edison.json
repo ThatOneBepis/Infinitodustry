@@ -1,11 +1,11 @@
 {
-	"type": "PowerTurret",
     "shootType": {
     	"type": "lightningBulletType",
         "damage": 35,
         "colidesAir": true,
         "lightningLength": 15
     },
+    "type": "PowerTurret",
     "range": 150,
     "targetAir": true,
     "targetGround": true,
