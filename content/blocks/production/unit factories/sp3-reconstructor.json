@@ -21,7 +21,7 @@
     "upgrades":[
     	["fortress", "trebuchet"],
     	["missile-mech-2", "missile-mech-3"],
-		["medic-mk3", "semigod"]/*,
+		/*["medic-mk3", "semigod"],
 		["smg-mech-2", "lancerot"]
     	*/
     ],
