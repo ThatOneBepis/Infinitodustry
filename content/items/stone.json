@@ -2,6 +2,6 @@
 	"color": "494949",
 	"hardness": 3,
 	"research": {
-	"parent": "tau-branch",
+	"parent": "scalar",
 	"requirements": ["stonks/15000"]}
 }
