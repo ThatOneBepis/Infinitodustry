@@ -1,5 +1,5 @@
 
-const tau = extendContent(Block, "tau-branch", {
+/*const tau = extendContent(Block, "tau-branch", {
   researchRequirements(){
         var out = ItemStack.with(moni, 20000);
         return out;
@@ -7,7 +7,7 @@ const tau = extendContent(Block, "tau-branch", {
   //setStats(){BlockType.core.unitCapModifier = "unitCapModifier"*1.1}, 
   canPlaceOn(){return false},
   isHidden(){return true}
-});
+});*/
 
 const infiarDrill = extendContent(Drill, "infiar-drill",{
     /*load(){
