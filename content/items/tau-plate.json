@@ -1,6 +1,6 @@
 {
 	"research": {
-	"parent": "tau-branch",
+	"parent": "scalar",
 	"requirements":
 	[
 		"stonks/35000",
