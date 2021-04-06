@@ -5,7 +5,7 @@
 	"variants": 0,
 	"emitLight": true,
 	"lightRadius": 30,
-	"lightColor": "#00ffff",
+	"lightColor": "#00ffff62",
     "attributes": [
     	{"type": "heat", "amount": 0.3},
     	{"type": "water", "amount": -0.25}
