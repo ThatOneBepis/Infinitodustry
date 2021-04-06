@@ -1,8 +1,0 @@
-{
-	"requirements": [
-		{ "item": "silicon", "amount": 110 },
-		{ "item": "lead", "amount": 90 },
-		{ "item": "thorium", "amount": 70 },
-		{ "item": "matrix", "amount": 50 }
-	]
-}
