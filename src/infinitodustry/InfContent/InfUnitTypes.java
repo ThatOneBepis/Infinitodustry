@@ -21,57 +21,57 @@ public class InfUnitTypes implements ContentList{
   
     // standard mechs
   
-       //public static @EntityDef({Unitc.class}) UnitType slinger, knife, sword, butcher;
+        //public static @EntityDef({Unitc.class}) UnitType slinger, knife, sword, butcher;
   
-       //public static @EntityDef({Unitc.class}) UnitType sledgehammer, warhammer, blitzhammer;
+        //public static @EntityDef({Unitc.class}) UnitType sledgehammer, warhammer, blitzhammer;
   
-       //public static @EntityDef({Unitc.class}) paladin;
+        //public static @EntityDef({Unitc.class}) paladin;
 
     // legged units
   
-       //public static @EntityDef({Unitc.class, Legsc.class}) UnitType greatsword, blacksmith;
+        //public static @EntityDef({Unitc.class, Legsc.class}) UnitType greatsword, blacksmith;
   
-       public static @EntityDef({Unitc.class, Legsc.class}) UnitType mitosis;      
+        public static @EntityDef({Unitc.class, Legsc.class}) UnitType mitosis;
 
     // flying units
   
-       public static @EntityDef({Unitc.class}) UnitType shadow, abyss, /*cavum*/;
+        public static @EntityDef({Unitc.class}) UnitType shadow, abyss, /*cavum*/;
   
-       public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType nMess;
+        public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType nMess;
+
+        //public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType crusader, inqusitor, matyr;
   
-       //public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType crusader, inqusitor, matyr;
+        //public static @EntityDef({Unitc.class}) UnitType aurora, coronal;
   
-       //public static @EntityDef({Unitc.class}) UnitType aurora, coronal;
-  
-       //public static @EntityDef({Unitc.class}) UnitType knight, nebula, plasmoid, luminosity, angel;
+        //public static @EntityDef({Unitc.class}) UnitType knight, nebula, plasmoid, luminosity, angel;
    
     // flying support units
   
-       //public static @EntityDef({Unitc.class, Healerc.class}) UnitType priest, partiarch, archangel;
+        //public static @EntityDef({Unitc.class, Healerc.class}) UnitType priest, partiarch, archangel;
        
-       //public static @EntityDef({Unitc.class, Healerc.class}) UnitType divinity;
+        //public static @EntityDef({Unitc.class, Healerc.class}) UnitType divinity;
   
-       //public static @EntityDef({Unitc.class}) UnitType monarch;
+        //public static @EntityDef({Unitc.class}) UnitType monarch;
   
-       //public static @EntityDef({Unitc.class}) UnitType angel;
-  
-       public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType draug;
+        //public static @EntityDef({Unitc.class}) UnitType angel;
+
+        public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType draug;
   
     // tanks, yeah thats the entire definition
 
-       //public static @EntityDef({Unitc.class, Trackc.class}) UnitType strong, light, armored;
+        //public static @EntityDef({Unitc.class, Trackc.class}) UnitType strong, light, armored;
   
     // hovering ground units
 
-       // public static @EntityDef({Unitc.class, Hoverc.class}) UnitType tide, flood, dolphin;
+        // public static @EntityDef({Unitc.class, Hoverc.class}) UnitType tide, flood, dolphin;
   
     // naval units
     
     // flying units (payload)
   
-    //public static @EntityDef({Unitc.class, Payloadc.class, AmmoDistributec.class}) UnitType octmega, mess;
+        //public static @EntityDef({Unitc.class, Payloadc.class, AmmoDistributec.class}) UnitType octmega, mess;
   
-    //public static @EntityDef({Unitc.class, Payloadc.class, MobileCorec.class}) UnitType fedEx;
+        //public static @EntityDef({Unitc.class, Payloadc.class, MobileCorec.class}) UnitType fedEx;
   
     // endregion
     const voidColor = Color.valueOf("791515");
