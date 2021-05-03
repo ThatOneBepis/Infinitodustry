@@ -19,7 +19,6 @@ import static mindustry.Vars.*;
 public class InfinitodustryWeapons implements ContentList{
     public static Weapon
   
-
     @Override
     public void load(){
       distancer = new("clear"){{

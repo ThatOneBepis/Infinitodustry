@@ -4,7 +4,7 @@ import arc.graphics.*;
 import mindustry.ctype.*;
 import mindustry.type.*;
 
-public class infinitodustry implements ContentList{
+public class InfItems implements ContentList{
   public static Item infiar, tenor, matrix, vector, scalar, copperSeptoxide, tauPlate, blastFabric, opticGlass, lemonPod, snowball, snowball2, stone, coins, ErrorItem; 
 
   @Override

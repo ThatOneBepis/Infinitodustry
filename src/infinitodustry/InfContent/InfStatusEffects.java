@@ -6,7 +6,7 @@ import mindustry.type.*;
 import mindustry.content.*;
 
 public class infinitodustryStatusEffects implements ContentList{
-    public static evaporation, inked, lemonned, lag;
+    public static evaporation, inked, lemonned, lag, defUp;
                 
     @Override
     public void load(){
@@ -31,8 +31,8 @@ public class infinitodustryStatusEffects implements ContentList{
            effect = Fx.oily;
            color = Color.valueOf("16264c");
            init(() -> {
-           oppsite(wet, tarred);
-           trans(melting, ((unit, time, newTime, result) -> result.set(melting, newTime + time)));
+           oppsite(StatusEffects.wet, StatusEffects.tarred); -> ((){  
+           trans(StatusEffects.melting, ((unit, time, newTime, result) -> result.set(StatusEffects.melting, newTime + time)));
              });
         }};
       
@@ -41,13 +41,18 @@ public class infinitodustryStatusEffects implements ContentList{
           }};
       
         lag = new StatusEffect("l-a-g"){{
-        speedMultiplier = 0;
-        healthMultiplier = 0;
-        damageMultiplier = 0;
-        reloadMultiplier = 0;
-        damage = 1;
-        effect = Fx.unitDespawn;
-        color = Color.valueOf("ffffff");
-          }};                
+            speedMultiplier = 0f;
+            healthMultiplier = 0f;
+            damageMultiplier = 0f;
+            reloadMultiplier = 0f;
+            damage = 1;
+            effect = Fx.unitDespawn;
+            color = Color.valueOf("ffffff");
+        }};
+      
+        defUp = new StatusEffect("def-up"){{
+            healthMultiplier = 3.5f;
+            effect = fx.none;
+        }};                        
    }
 }

@@ -6,13 +6,48 @@ import mindustry.content.*;
 import mindustry.graphics.g3d.*;
 import mindustry.type.*;
 import infinitodustry.maps.planet.*;
+import infinitodustry.content.*;
 
-public class InfinitodustryPlanets implements ContentList{
+public class InfPlanets implements ContentList{
     public static Planet
+  
+    //region key Drone Union assets
+    //bunchOfAsteroids, dryedPlastWorld, lagfest, abandonedPowerWorld, pinstorisis,
+    //endregion
+  
+    //region Tau-owned planets
+    //electnagtic,   
+    //tunarinc, welt, mourgert,
+    //observatundrorium,
+    //endregion
+  
+    //region Hydrogen System
+    //proton, electron,
+    //endregion
+  
     //region ainamelzung's planetary region
     ainamelzung,
     ainamelzungSatelite1, ainamelzungSatelite2, ainamelzungSatelite3, ainamelzungSatelite4, ainamelzungSatelite5, ainamelzungSatelite6, ainamelzungSatelite7;
+    //robotDeathTrap,
+    //plastaniumPlanet,
+    //theCollective,
     //endregion
+  
+    //region rose republic system
+    //tulipia, roselagen, gravPlot,
+    //drohlcano, liliatheric, tactictuple,
+    //rootStar,
+    //endregion     
+  
+    //region the rocks
+    //mausern, grounsern, 
+    //roltanor,
+    //endregion
+  
+    //region other stars/planets
+    //sinusia, sinusiaSequel,
+    //endregion   
+  
     @Override
     public void load(){
     //region stars
@@ -20,7 +55,7 @@ public class InfinitodustryPlanets implements ContentList{
     //endregion
     //region large planets
     
-    ainamelzung = new Planet("ainamelzung", Planets.sun, 5, 1.35){{
+    ainamelzung = new Planet("ainamelzung", Planets.sun/*theCollective*/, 5, 1.35){{
         bloom = false;
         generator = new AinamelzungPlanetGenerator();
         atmosphereColor = Pal.heal;
@@ -38,6 +73,9 @@ public class InfinitodustryPlanets implements ContentList{
     
     //endregion
     //region natural satelites
+    
+    //endregion
+    //region "Power worlds"
     
     //endregion
     //region asteroids of higher importance
@@ -90,7 +128,7 @@ public class InfinitodustryPlanets implements ContentList{
           hasAtmosphere = false;
           startSector = 26;
     }};
-      
+        
     //endregion
     //region other
     

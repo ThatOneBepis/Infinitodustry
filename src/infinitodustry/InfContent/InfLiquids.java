@@ -4,8 +4,9 @@ import arc.graphics.*;
 import mindustry.ctype.*;
 import mindustry.type.*;
 import mindustry.content.*;
+import infinitodustry.content.*;
 
-public class VanillaLiquids implements ContentList{
+public class InfLiquids implements ContentList{
     public static Liquid ion, ink, lemonade, darkMatter, errorLiquid;
 
     @Override
@@ -48,6 +49,7 @@ public class VanillaLiquids implements ContentList{
             temperature = 0.0001f;
             viscosity = flamability = explosiveness = 6.66666666666666666666666666666666666666666666666666f;
             heatCapacity = 0f;
+            effect = InfStatusEffect.errorStatus;
           }};      
     }
 }
