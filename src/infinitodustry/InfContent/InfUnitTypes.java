@@ -243,13 +243,13 @@ public class InfUnitTypes implements ContentList{
     //endregion
     //region bosses
     
-    //cycler = new (UnitType, "cycler"){{}};
+    //cycler = new UnitType("cycler"){{}};
       
-    //mess = new (UnitType, "a-mess"){{}};
+    //mess = new UnitType("a-mess"){{}};
       
-    //tedEx = new (UnitType, "delivery-time"){{}};
+    //tedEx = new UnitType("delivery-time"){{}};
       
-    //havocc = new (UnitType, "havocc"){{}};
+    //havocc = new UnitType("havocc"){{}};
       
     /*h = new (UnitType, "h"){{
          blockDamageMultiplier = 0.000000000000001f;
@@ -257,7 +257,9 @@ public class InfUnitTypes implements ContentList{
     
     //endregion
     //region gods
-    
+
+    //divinity = new UnitType("divinity"){{}};
+
     //endregion     
     }
 }
