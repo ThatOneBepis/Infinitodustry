@@ -71,6 +71,7 @@ public class InfBlocks implements ContentList{
     //storage
 
     //downloader, dataBunker,
+    //energyMatrix,
 
     //turrets
     //freezingMK1, freezingMK2, air, splash, blast, multishot, venom, tesla, swarmerLarge,
