@@ -57,9 +57,14 @@ public class InfBlocks implements ContentList{
     //crafting
     
     //sandbox
- 
+    //overjector, overmender, overspotter,
+
     //defense
-    
+    //mendDome, mendNexus,
+    //powerWall, powerWallLarge, mendWall, mendWallLarge, blastWall, blastWallLarge, infiarWall, infiarWallLarge,
+    //overclock, overdriveNexus,
+    //spotter, sensorArray, sensorDome, sensorNexus, echoWall, echoWallLarge,
+
     //transport
     
     //liquid

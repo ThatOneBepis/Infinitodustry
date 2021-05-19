@@ -51,7 +51,11 @@ public class InfPlanets implements ContentList{
     @Override
     public void load(){
     //region stars
-    
+
+    //electron = new Planet
+
+    //theCollective = new Planet
+
     //endregion
     //region large planets
     
@@ -132,7 +136,7 @@ public class InfPlanets implements ContentList{
     //endregion
     //region other
     
-    //bunchOfRocks
+    //bunchOfRocks = new Planet
     
     //endregion  
     };

@@ -5,8 +5,8 @@ import mindustry.ctype.*;
 import mindustry.type.*;
 import mindustry.content.*;
 
-public class infinitodustryStatusEffects implements ContentList{
-    public static evaporation, inked, lemonned, lag, defUp;
+public class InfStatusEffects implements ContentList{
+    public static evaporation, inked, lemonned, lag, defUp, atkUp/*, ldrUp, verified*/;
                 
     @Override
     public void load(){
@@ -31,8 +31,8 @@ public class infinitodustryStatusEffects implements ContentList{
            effect = Fx.oily;
            color = Color.valueOf("16264c");
            init(() -> {
-           oppsite(StatusEffects.wet, StatusEffects.tarred); -> ((){  
-           trans(StatusEffects.melting, ((unit, time, newTime, result) -> result.set(StatusEffects.melting, newTime + time)));
+           oppsite(StatusEffects.wet, StatusEffects.tarred);
+           affinity(StatusEffects.melting, ((unit, time, newTime, result) -> result.set(StatusEffects.melting, newTime + time)));
              });
         }};
       
@@ -52,7 +52,30 @@ public class infinitodustryStatusEffects implements ContentList{
       
         defUp = new StatusEffect("def-up"){{
             healthMultiplier = 3.5f;
-            effect = fx.none;
-        }};                        
+            effect = Fx.none;
+        }};
+
+        atkUp = new StatusEffect("atk-up"){{
+            damageMultiplier = 2.5f;
+            effect = Fx.none;
+        }};
+
+        /*ldrUp = new StatusEffect("ldr-up"){{
+            effect = Fx.none;
+            speedMultiplier = 1.5f;
+            healthMultiplier = 1.5f;
+            damageMultiplier = 1.5f;
+            reloadMultiplier = 1.5f;
+            init(() -> {
+                opposite(StatusEffect, ignore(atkUp, defUp, cloak, StatusEffects.overclock, StatusEffects.boss);
+                });
+        }};
+         */
+
+        /*verified = new StatusEffect("verified"){{
+        //le stuff that overrides the invisibility thing
+
+        }};
+        */
    }
 }

@@ -37,9 +37,9 @@ public class InfUnitTypes implements ContentList{
   
         public static @EntityDef({Unitc.class}) UnitType shadow, abyss, /*cavum*/;
   
-        public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType nMess;
+        public static @EntityDef(value = {Unitc.class}) UnitType nMess;
 
-        //public static @EntityDef(value = {Unitc.class}, legacy = true) UnitType crusader, inqusitor, matyr;
+        //public static @EntityDef(value = {Unitc.class}) UnitType crusader, inqusitor, matyr;
   
         //public static @EntityDef({Unitc.class}) UnitType aurora, coronal;
   
@@ -63,6 +63,8 @@ public class InfUnitTypes implements ContentList{
   
     // hovering ground units
 
+        // public static @EntityDef({Unitc.class, Hoverc.class, UnitBuildc.class}) UnitType lua, python, java, nim, kotlin;
+
         // public static @EntityDef({Unitc.class, Hoverc.class}) UnitType tide, flood, dolphin;
   
     // naval units
@@ -79,7 +81,23 @@ public class InfUnitTypes implements ContentList{
     @Override
     public void load(){
     //region ground units
-    
+
+        //slinger = new UnitType("missile-mech-1"){{}};
+
+        //sledgehammer = new UnitType("missile-mech-2"){{}};
+
+        //warhammer = new UnitType("missile-mech-3"){{}};
+
+        //blitzhammer = new UnitType("missile-mech-surge"){{}};
+
+        //paladin = new UnitType("missile-mech-blaster"){{}};
+
+        //strong = new UnitType("strong-tank"){{}};
+
+        //light = new UnitType("light-tank"){{}};
+
+        //armored = new UnitType("armored-tank"){{}};
+
     //endregion
     //region legged units
     
@@ -124,6 +142,16 @@ public class InfUnitTypes implements ContentList{
     
     //endregion
     //region hovercrafts
+
+        //lua = new UnitType("lua"){{}};
+
+        //python = new UnitType("python"){{}};
+
+        //java = new UnitType("java"){{}};
+
+        //nim = new UnitType("nim"){{}};
+
+        //kotlin = new UnitType("kotlin"){{}};
     
     //endregion
     //region air units
