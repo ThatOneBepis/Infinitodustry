@@ -6,7 +6,7 @@ import mindustry.type.*;
 import mindustry.content.*;
 
 public class InfStatusEffects implements ContentList{
-    public static evaporation, inked, lemonned, lag, defUp, atkUp/*, ldrUp, verified*/;
+    public static evaporation, inked, lemonned, lag, defUp, atkUp/*, ldrUp, verified, shrouded*/;
                 
     @Override
     public void load(){
@@ -77,5 +77,6 @@ public class InfStatusEffects implements ContentList{
 
         }};
         */
+        //shroud = new StatusEffect("shroud"){{}}; non-existence but its communisn and getting ridden when shoot
    }
 }

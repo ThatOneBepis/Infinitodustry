@@ -21,7 +21,7 @@ public class InfUnitTypes implements ContentList{
   
     // standard mechs
   
-        //public static @EntityDef({Unitc.class}) UnitType slinger, knife, sword, butcher;
+        //public static @EntityDef({Unitc.class}) UnitType slinger, knife, razor, sword, butcher;
   
         //public static @EntityDef({Unitc.class}) UnitType sledgehammer, warhammer, blitzhammer;
   
@@ -82,6 +82,14 @@ public class InfUnitTypes implements ContentList{
     public void load(){
     //region ground units
 
+        //knife = new UnitType("smg-mech-1"){{}};
+
+        //razor = new UnitType("smg-mech-2"){{}};
+
+        //sword = new UnitType("smg-mech-3"){{}};
+
+        //butcher = new UnitType("combat-platform"){{}};
+
         //slinger = new UnitType("missile-mech-1"){{}};
 
         //sledgehammer = new UnitType("missile-mech-2"){{}};
@@ -103,9 +111,10 @@ public class InfUnitTypes implements ContentList{
     
         mitosis = new UnitType("mitosis"){{
               health = 200;
-              speed = 0.9f;
               armor = 1;
-              range = 160f;
+              abilities.add(new UnitSpawnAbility(this, 60f * 60f * 2f, 0f, 0f));
+              speed = 0.9f;
+              range = 160;
               itemCapacity = 20;
         
               rotateSpeed = 3f;
@@ -155,39 +164,51 @@ public class InfUnitTypes implements ContentList{
     
     //endregion
     //region air units
-      
-        nMess = new UnitType("a-lesser-mess"){{
-              health = 105;
-              speed = 3f;
-              commandLimit = 5;
-        
-              accel = 0.2f;
-              drag = 0.01;
-              hitSize = 6f;
-              flying = true;
-              
-              engineOffset = 5.5f;
-              buildSpeed = 0.5f;
-              weapons.add(new Weapon("clear"){{
-                     reload = 20;
-                     ejectEffect = Fx.casing1;
-                     shootSound = Sounds.bang;
-                     bullet = Bullets.standardDense;
-                     
-                     x = 0;
-                     y = 2;
-                  }});
-          }};
+
+        //aurora = new UnitType("ftl-unit-1"){{}};
+
+        //coronal = new UnitType("ftl-unit-2"){{}};
+
+        //nebula = new UnitType("ftl-unit-3"){{}};
+
+        //plasmoid = new UnitType("ftl-unit-4"){{}};
+
+        //luminosity = new UnitType("ftl-unit-5"){{}};
           
     //endregion
     //region drones
+
+        float nMessBuildTime = 60f * 15f;
+        nMess = new UnitType("a-lesser-mess"){{
+            health = 105;
+            speed = 3f;
+            commandLimit = 5;
+
+            cicleTarget = false;
+            accel = 0.2f;
+            drag = 0.01;
+            hitSize = 6f;
+            flying = true;
+
+            engineOffset = 5.5f;
+            buildSpeed = 0.5f;
+            weapons.add(new Weapon("clear"){{
+                reload = 20;
+                shootSound = Sounds.bang;
+                x = 0;
+                y = 2;
+
+                ejectEffect = Fx.casing1;
+                bullet = Bullets.standardDense;
+            }});
+        }};
       
         draug = new UnitType("draug"){{
               defaultController = MinerAI::new; 
               health = 80;
               speed = 1.2f;
               range = 50f;
-        
+
               accel = 0.3f;
               drag = 0.01f;
               flying = true;
@@ -204,9 +225,10 @@ public class InfUnitTypes implements ContentList{
                speed = 1.45f;
                armor = 2f;
                commandLimit = 4f;
-               range = 120f; 
-    
+               range = 120f;
+
                //exists = false;
+               cicleTarget = false;
                hitSize = 8f;
                flying = true;
                mass = 5f;
@@ -227,17 +249,17 @@ public class InfUnitTypes implements ContentList{
                             lifetime = 30f;
              }};
         }});
-             weapons.add(InfWeapons.distancer);     
         }}; 
       
         abyss = new UnitType("assassin-drone-mk2"){{
               health = 450;
-              speed = 1.05f;
               armor = 25f;
+              speed = 1.05f;
               commandLimit = 6f;
               range = 150;
         
               //exists = false;
+              cicleTarget = false;
               drag = 0.9f;
               hitSize = 14f;
               flying = true;
@@ -248,7 +270,7 @@ public class InfUnitTypes implements ContentList{
               ammoType = AmmoTypes.power;
               weapons.add(new Weapon("clear")){{
                      ammoMultiplier = 1.75f;
-                     reload = 30f;
+                     reload = 30;
                      shootSound = Sounds.conveyor;
             
                      x = 0f;
@@ -262,7 +284,6 @@ public class InfUnitTypes implements ContentList{
                             damage = 20;
             }};
             }};
-            weapons.add(InfWeapons.distancer);
         }};
       
     //endregion
@@ -273,11 +294,91 @@ public class InfUnitTypes implements ContentList{
     
     //cycler = new UnitType("cycler"){{}};
       
-    //mess = new UnitType("a-mess"){{}};
+    /*
+    mess = new UnitType("a-mess"){{
+        health = 45000;
+        armor = 250;
+        abilities.add(new UnitSpawnAbility(nMess, nMessBuildTime, 14f, 0f), new UnitSpawnAbility(nMess, nMessBuildTime, -14f, 0f), new UnitSpawnAbility(nMess, nMessBuildTime, 7f, 34f), new UnitSpawnAbility(nMess, nMessBuildTime, -7f, 34f), new UnitSpawnAbility(nMess, nMessBuildTime, 35f, -5f), new UnitSpawnAbility(nMess, nMessBuildTime, -35f, -5f), new UnitSpawnAbility(nMess, nMessBuildTime, 15f, -30f), new UnitSpawnAbility(nMess, nMessBuildTime, -15f, -30f));
+        speed = 0.9f;
+        accel = 0.05f;
+        commandLimit = 14;
+
+        drag = 2f;
+        hitSize = 65f;
+        flying = true;
+        buildSpeed = 3.5f;
+        payloadCapacity = (5.3f * 5.3f) * tilePayload;
+        defaultController = DefenderAI::new;
+
+        engineOffset = 35f;
+        engineSize = 7.8f;
+        ammoCapacity = 2500;
+        ammoResupplyAmount = 35;
+    }};
+
+    cedEx = new UnitType("delivery-time"){{
+        health = 60000;
+        armor = 25;
+        abilities.add(new UnitSpawnAbility(UnitTypes.mono, 60f * 30f, 30f, 20f), new UnitSpawnAbility(UnitTypes.mono, 60f * 30f, -30f, 20f));
+        abilities.add(new SupplementalUnitAbility(nMess, nMessBuildTime / 10f, 0f, -35f));
+        speed = 0.9f;
+        unitCapModifier = 14;
+        commandLimit = 14;
+
+        drag = 1f;
+        flying = true;
+        buildSpeed = 1.45f;
+        payloadCapacity = (6f * 4.2f) * tilePayload;
+        rotateShooting = false;
+        defaultController = DefenderAI::new;
+
+        priority = flag.core;
+        itemCapacity = 17500;
+        ammoCapacity = 5000;
+        weapons.add(
+            new Weapon ("typhoon"){{
+                reload = 220;
+                inaccuracy = 60;
+                shootSound = Sounds.laserBlast;
+
+                x = 15;
+                y = -20;
+                recoil = 1.6f;
+
+                alternate = true;
+                bullet = InfBullets.bayWarden;
+        }});
+        ammoType = AmmoTypes.powerLow;
+    }};
       
-    //tedEx = new UnitType("delivery-time"){{}};
-      
-    //havocc = new UnitType("havocc"){{}};
+    havocc = new UnitType("havocc"){{
+        health = 3500;
+        abilities.add(new PersonalShieldGenerationAbility((10000f, 500f, 60f / 2, 2500f));
+        abilities.add(new UnitSpawnAbility(nMess, nMessBuildTime, 23.25f, -40.75f), new UnitSpawnAbility(nMess, nMessBuildTime, -23.25f, -40.75f));
+        speed = 0.7f;
+        movementRange = 200 * 8;
+
+        drag = 5f;
+        hitSize = 45f;
+        flying = true;
+        mass = 110f;
+        crashDamageMultiplier = 100f;
+        crashBullet = InfBullets.randomTempest;
+        crashBullet.lifetime = 40f;
+
+        weapons.add(
+            new Weapon("battery-caster"){{
+                reload = 340;
+                shootSound = Sounds.bang;
+
+                x = y = 0;
+
+                shootEffect = Fx.lancerLaserCharge;
+                bullet = InfBullets.randomTempest;
+        }});
+        ammoType = AmmoTypes.powerLow;
+    }};
+     */
       
     /*h = new (UnitType, "h"){{
          blockDamageMultiplier = 0.000000000000001f;

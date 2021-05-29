@@ -21,13 +21,7 @@ public class InfinitodustryWeapons implements ContentList{
   
     @Override
     public void load(){
-      distancer = new("clear"){{
-          bullet = new BasicBulletType(){{
-            instantDissapear = true;
-            lifetime = 200f;
-         }};
-         rotate = true;   
-       }};
-      }
+
+    }
   }
 }

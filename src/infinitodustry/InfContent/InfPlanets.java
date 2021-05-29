@@ -136,7 +136,11 @@ public class InfPlanets implements ContentList{
     //endregion
     //region other
     
-    //bunchOfRocks = new Planet
+    /*bunchOfRocks = new Planet("weird-asteroid-complex", null, 6, 1){{
+        generator = new RockGenerator();
+        hasAtmosphere = false;
+    }};
+     */
     
     //endregion  
     };

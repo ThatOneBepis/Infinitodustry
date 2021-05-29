@@ -21,9 +21,8 @@ import static mindustry.Vars.*;
 public class InfBullets implements ContentList{
     public static BulletType
 
-    //artillery
-
-    //flak, frag
+    //shells
+    randomTempest, bayWarden,
     flakCopper, flakTitan, flakIncendiary, nyoomFlak, flakOxiCopper,
 
     //missiles
@@ -145,10 +144,11 @@ public class InfBullets implements ContentList{
             lifetime = 25f;
             width = 6f;
             height = 10f;
-            lightning = 2;
-            lightningLength = 10;
             shootEffect = Fx.shootSmall;
             smokeEffect = Fx.shootSmallSmoke;
+
+            lightning = 2;
+            lightningLength = 10;
         }};
 
         apOxiCopper new BasicBulletType(6f, 65){{
@@ -163,6 +163,43 @@ public class InfBullets implements ContentList{
 
         //endregion
         //region energy projectiles
+
+        randomTempest = new BombBulletType(450f, 100f){{
+           lifetime = 120f;
+           //lifetimeMin = 60f;
+           //lifetimeMax = 180f;
+           hittable = false;
+           reflectable = false;
+
+           fragBullet = Bullets.artilleryExplosive;
+           fragBullets = 15;
+           lightning = 25;
+           lightningLength = 30;
+           lightningLengthRand = 5;
+           lightningDamage = 5;
+
+           frontColor = Color.valueOf("791515");
+           backColor = Color.valueOf("6a0e0e");
+           status = StatusEffects.shocked;
+        }};
+
+        bayWarden = new ArtilleryBulletType(5f, 40, "shell"){{
+            lifetime = 95f;
+            width = height = 12f;
+            colidesAir = true;
+            collidesTiles = false;
+            splashDamageRadius = 35f * 0.75f;
+            splashDamage = 95f;
+            shootEffect = Fx.sparkShoot;
+
+            lightning = 5;
+            lightningLength = 6;
+            lightningDamage = 10;
+
+            frontColor = Pal.lancerLaser;
+            backColor = Color.blue;
+            status = StatusEffects.shocked;
+        }};
 
         //endregion
         //region liquids

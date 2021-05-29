@@ -25,7 +25,6 @@ public class infinitodustry extends Mod{
     new InfUnitTypes().load();
     new InfBlocks().load();
     new InfPlanets().load();
-    new InfWeapons().load();
     new InfStatusEffects().load();
     new InfSectors().load();
     new InfTechTree().load();
